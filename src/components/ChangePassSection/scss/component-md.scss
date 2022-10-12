@@ -1,0 +1,115 @@
+@import "../../styles/colors";
+
+
+@media (min-width: 768px) {
+    .fondo-changepass {
+      background-image: url('../../../assets/images/login_singUp/1.5x/Artboard\ 1\ copy\ 2@1.5x.png');
+      width: 100%;
+      height: 1130px !important;
+      background-size: cover !important;
+    
+      .back-arrow {
+        display: block;
+        margin-left: 13%;
+        margin-top: 5%;
+        .anticon-arrow-left {
+            color: white;
+            font-size: 6vw;
+        }
+      }
+    
+      .main-row {
+          display: flex;
+          justify-content: center;
+          .changepassContainer {
+              width: 80% !important;
+              height: 700px;
+    
+              .secondary-row{
+                  display: block !important;
+                  .login-pic {
+                      background-image: url('../../../assets/images/login_singUp/1.5x/Artboard\ 3@1.5x.png');
+                      background-size: cover;
+                      width: 100% !important;
+                      height: 350px !important;
+                      border-radius: 15px 15px 0px 0px !important;
+                      box-shadow: 3px 0px 7px #043744;
+                      z-index: 1;
+    
+                      .logo-login {
+                          width: 60%;
+                      }
+                  }
+                  .login-form-col {
+                      background-color: white;
+                      width: 100% !important;
+                      height: 570px !important;
+                      padding: 0% !important;
+                      border-radius: 0px 0px 15px 15px !important;
+                      box-shadow: 7px 7px 10px #071013;
+                  }
+              }   
+          }   
+      }
+    }
+  
+    // signUp form nuevo
+  
+  .signup-form-container {
+    justify-content: center;
+    width: 100%;
+    padding-top: 40px;
+  
+    .ant-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-col {
+            .ant-switch {
+                margin-left: 20%;
+                padding-left: 20%;
+                padding-right: 20%;
+                background-color: $primary;
+                
+            }
+            h2 {
+                color: $primary;
+                font-size: 4vw;
+                text-align: center;
+                position: relative;
+                padding-top: 7%;
+                padding-bottom: 6%;
+            }
+            .sing-in-social-networks {
+                padding-top: 8%;
+                padding-bottom: 8%; 
+            }
+            p {
+                text-align: center;
+                font-size: 2vw;
+                color: #567277;
+            }
+        }
+        Form {
+            width: 70%;
+            padding-top: 5%;
+            .login-form-forgot {
+                text-align: center;
+                color: #567277;
+                font-size: 2vw;
+            }
+            hr {
+                margin-bottom: 20px;
+                margin-top: 18px;
+                border-color: #8ba2a5;
+                border-width: 1px;
+            }
+            .login-form-button {
+                background-color: $primary-green;
+                border: none;
+                margin-bottom: 5%;   
+            }
+        }    
+    }
+  }
+  }
