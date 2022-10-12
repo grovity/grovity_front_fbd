@@ -1,0 +1,53 @@
+@import "../../components/styles/App.scss";
+
+.fondo-call-bootcamp {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 3%;
+  .mentores-section2 {
+    margin: auto;
+    padding-top: 2%;
+    
+    .ant-row {
+      margin-top: 2%;
+      justify-content: center;
+
+      .ant-col {
+        h4 {
+            color: #567277;
+            font-family: ObjectiveMedium;
+            font-size: 230%;
+            margin-bottom: 2%;
+        }
+        h1 {
+          color: #00495d;
+          font-family: ObjectiveBold;
+          font-size: 330%;
+          margin-bottom: 0;
+        }
+      }    
+  }
+}
+.call-to-action-bootcamp {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+      
+    .menu-item {
+        .button-call {
+            background-color: #8dbb1f;
+            border-radius: 8px;
+            border-width: 0px;
+            padding: 3%;
+            margin-bottom: 5%;
+            width: 105%;
+            height: 25%;
+            span {
+              color: white;
+              font-size: 200%;
+              font-family: ObjectiveMedium;
+            }
+          }
+        } 
+    }
+}

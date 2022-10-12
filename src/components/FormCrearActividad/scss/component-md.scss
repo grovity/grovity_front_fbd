@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+
+
+@media (min-width: 768px) {
+    .ant-picker-content {
+        thead {
+                background-color: white ;
+        }
+    }       
+}

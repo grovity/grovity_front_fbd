@@ -1,0 +1,83 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #mentor-info-basica {
+        .ant-divider {
+            border-color: var(--tertiary-text-color);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .datos-mentor {
+            // display: flex;
+            align-items: center;
+            .dato {
+                p {
+                    color: var(--tertiary-text-color);            
+                    font-family: var(--light-font);
+                    margin-bottom: 0;
+                    font-size: small;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 5%;
+            .bio {
+                h4 {
+                    color: var(--secondary-color);
+                    font-family: var(--medium);
+                    font-size: 4vw !important;
+                    text-align: left;
+                }
+                p {
+                    color: var(--primary-text-color);
+                    font-family: var(--light-font);
+                    font-size: 3.8vw !important;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    #mentor-info-basica {
+        .ant-divider {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .datos-mentor {
+            align-items: center;
+            .dato {
+                p {            
+                    margin-bottom: 0;
+                    font-size: small;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 5%;
+            .bio {
+                h4 {
+                    font-size: 3.5vw !important;
+                    text-align: left;
+                }
+                p {
+                    font-size: 3vw !important;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

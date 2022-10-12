@@ -1,0 +1,10 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    #card-marketplace {
+        margin-top: 0%;
+    }
+}

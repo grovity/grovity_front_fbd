@@ -1,0 +1,63 @@
+@import '../../styles/colors';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    #card-programs {
+        background-color: transparent !important;
+        border: none;
+        
+        .ant-card {
+          border-left: 10px solid var(--color-alternativo);
+          border-radius: 10px;
+          margin-top: 3%;
+          transition: transform 1s;
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+          text-align: start;
+      
+          #col-programs { 
+            margin-left: 0%;      
+            h5 {
+              color: var(--secondary-color);
+              font-size: larger;
+            }
+            h5:hover {
+              color: var(--secondary-hover-color);
+              font-size: larger;
+            }
+      
+            .parrafo-bold {
+              color: var(--primary-text-color);
+              margin-bottom: 0;
+            }
+      
+            p {
+              color: var(--secondary-text-color);
+              margin-bottom: 0;
+              font-size: medium;
+            }
+      
+            a {
+              color: var(--secondary-color);
+            }
+
+            .show-two-lines {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2; /* number of lines to show */
+              line-height: 1.5;        /* fallback */
+              max-height: 2*2;       /* fallback */
+              color: var(--primary-text-color)
+            } 
+          }      
+        }
+      
+        .ant-card:hover {
+          transform: scale(1.02);
+        }
+      
+      }
+    }
