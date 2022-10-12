@@ -1,0 +1,70 @@
+@import '../../styles/colors';
+
+@media (min-width: 0em) {
+    #call-to-home3 {
+        // background-color: white;
+        .cols-why-grovity {
+            justify-content: center;
+            margin-top: 32%;
+            h3 {
+                text-align: center;
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 130%;
+                margin-bottom: 5%;
+            }
+        }
+        .btn-call-to-home3 {
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveBold;
+            border: none;
+        }
+    }
+}
+// @media (min-width: 526px) {
+@media (min-width: 32.875em) {
+    #call-to-home3 {
+        // background-color: white;
+        .cols-why-grovity {
+            justify-content: center;
+            margin-top: 27%;
+            h3 {
+                text-align: center;
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 150%;
+                margin-bottom: 3%;
+            }
+        }
+        .btn-call-to-home3 {
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveBold;
+            border: none;
+        }
+    }
+}
+// @media (min-width: 640px) {
+@media (min-width: 40em) {
+    #call-to-home3 {
+        // background-color: white;
+        .cols-why-grovity {
+            justify-content: center;
+            margin-top: 23%;
+            h3 {
+                text-align: center;
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 160%;
+                margin-bottom: 3%;
+            }
+        }
+        .btn-call-to-home3 {
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveBold;
+            border: none;
+        }
+    }
+}

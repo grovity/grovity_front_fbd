@@ -1,0 +1,102 @@
+@import '../../styles/colors';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+    #card-programs {
+        background-color: transparent !important;
+        border: none;
+         #col-cards {
+           margin-bottom: 3%;
+         }
+        .ant-card {
+          border-left: 10px solid var(--color-alternativo);
+          border-radius: 10px;
+          box-shadow: 0 4px 6px rgba(4, 5, 5, 0.6);
+          margin-top: 3%;
+          transition: transform 1s;
+          height: 100%;
+          width: 100%;
+          overflow: hidden;
+          text-align: start;
+      
+          .ant-card-body {
+            padding: 0;
+            height: 100%;
+            padding-right: 3%;
+          }
+          .ant-card-meta {
+            height: 103% !important;
+            padding: 0;
+      
+            .ant-card-meta-avatar {
+              width: 100%;
+              height: 100% ;
+              padding: 0;
+      
+              .ant-avatar {
+                width: 100%;
+                height: 100%;
+                border-radius: 0;
+                padding: 0;
+                margin: 0;
+              }
+            }
+          }
+      
+          #col-image {
+            padding-right: 0px !important;
+            padding: 0;
+            max-height: 170px;
+            img {
+              object-fit: contain;
+            }
+          }
+      
+          #col-programs {  
+            padding-top: 3%; 
+            margin-left: 3%;   
+            h5 {
+              color: var(--secondary-color);
+              font-family: var(--bold);
+              font-size: larger;
+            }
+            h5:hover {
+              color: var(--secondary-hover-color);
+              font-family: var(--bold);
+              font-size: larger;
+            }
+      
+            .parrafo-bold {
+              color: var(--primary-text-color);
+              font-family: --var(--bold);
+              margin-bottom: 0;
+            }
+      
+            p {
+              color: var(--secondary-text-color);
+              font-family: var(--light-font);
+              margin-bottom: 0;
+              font-size: medium;
+            }
+      
+            a {
+              font-family: var(--reg-italic);
+              color: var(--secondary-color);
+            }
+            .show-two-lines {
+              overflow: hidden;
+              text-overflow: ellipsis;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2; /* number of lines to show */
+              line-height: 1.5;        /* fallback */
+              max-height: 2*2;       /* fallback */
+              color: var(--primary-text-color)
+            } 
+          }
+        }
+        .ant-card:hover {
+          transform: scale(1.02);
+        }
+      }
+    }

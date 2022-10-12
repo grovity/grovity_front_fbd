@@ -1,0 +1,74 @@
+@import "../../styles/colors";
+@import "../../styles/App.scss";
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+.perfil-general-mentor {
+  background-color: var(--light-color);
+  padding: 3%;
+
+  .avatar {
+    position: relative;
+    margin: auto;
+    background-color: var(--secondary-color);
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nombre-cargo {
+    border-bottom: 1px solid var(--primary-text-color);
+    margin: 7%;
+
+    h5 {
+      font-family: var(--bold);
+      color: var(--primary-text-color);
+    }
+
+    p {
+      font-family: var(--light-font);
+      color: var(--primary-text-color);
+      font-size: medium;
+      margin-bottom: 1%;
+    }
+    .email {
+      margin-bottom: 6%;
+    }
+  }
+
+  .resumen-perfil {
+    margin: 6%;
+    margin-top: 3%;
+    text-align: left;
+
+    h6 {
+      font-family: var(--reg);
+      color: var(--primary-text-color);
+      font-size: large;
+    }
+  }
+
+  .share-btns-row {
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+  .share-btns {
+    margin-right: 3%;
+    margin-bottom: 3%;
+  }
+
+  .redes {
+    img {
+      margin-right: 4%;
+    }
+  }
+}
+}

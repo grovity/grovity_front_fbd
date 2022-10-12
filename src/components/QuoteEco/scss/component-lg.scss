@@ -1,0 +1,40 @@
+@import '../../styles/colors';
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+    #quote-eco {
+        background-color: white;
+        h3 {
+            text-align: center;
+            font-family: ObjectiveMedium;
+            color: white;
+            margin-bottom: 10%;
+            font-size: x-large;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    #quote-eco {
+        background-color: white;
+        h3 {
+            text-align: center;
+            font-family: ObjectiveMedium;
+            color: white;
+            margin-bottom: 10%;
+            font-size: x-large;
+        }
+    }
+}
+@media (min-width: 1400px) {
+    #quote-eco {
+        background-color: white;
+        h3 {
+            text-align: center;
+            font-family: ObjectiveMedium;
+            color: white;
+            margin-bottom: 10%;
+            font-size: xx-large;
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #mentor-info-basica {
+        .ant-divider {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .datos-mentor {
+            align-items: center;
+            .dato {
+                p {          
+                    margin-bottom: 0;
+                    font-size: small;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 5%;
+            .bio {
+                h4 {
+                    font-size: 2.1vw;
+                    text-align: left;
+                }
+                .bio-description {
+                    font-size: 0.9vw;
+                    text-align: left;
+                    display: -webkit-box;
+                    // max-width: 200px;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                }
+            }
+        }
+        .tags-mentor {
+            margin-top: 3%;
+            .tags {
+                .ant-tag {
+                    margin-bottom: 2%;
+                }
+            }
+        }
+    }
+}
