@@ -1,0 +1,51 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+  #empresa-info {
+    .ant-row {
+      justify-content: start;
+      margin-top: 0%;
+
+      h1 {
+        font-family: var(--bold);
+        font-size: 2vw;
+      }
+
+      p {
+        font-family: var(--light-font);
+        margin-bottom: 1.3%;
+        font-size: medium;
+      }
+
+      h6 {
+        font-family: var(--medium);
+        margin-top: 0%;
+      }
+      
+      .ant-col {
+
+        .datos-contacto {
+          text-align: start;
+          margin-right: 5%;
+        }
+      }
+      .btn-editar {
+        display: flex;
+        justify-content: flex-end;         
+      }
+    }
+
+    .no-empresa {
+      justify-content: center;
+      padding-bottom: 2%;
+
+      .no-empresa-content {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}

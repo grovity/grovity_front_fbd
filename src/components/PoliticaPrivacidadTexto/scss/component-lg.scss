@@ -1,0 +1,25 @@
+@import "../../styles/colors";
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 922px) {
+    
+    .fondo-faqs {
+        width: 100%;
+        background-color: white;
+    
+        .faqsContainer {
+            display: flex;
+            justify-content: center;
+      
+            .containerFaqs {
+                .secondary-row {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                    }
+                }  
+            }
+        }
+
+// }

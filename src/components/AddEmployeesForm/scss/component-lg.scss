@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+  #edicion-equipo-empresa {
+    h4 {
+      color: var(--secondary-color);
+      margin-bottom: 3%;
+    }
+
+    .divider-sections {
+      border-color: var(--primary-color);
+    }
+  }
+}
