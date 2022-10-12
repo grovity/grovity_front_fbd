@@ -1,0 +1,103 @@
+@import '../../../components/styles/colors';
+
+@media (min-width: 0em) {
+    #fondo-fondo {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;         
+        }
+        .container-banner {
+            margin-top: -52%;
+            }
+        .container-why {
+            margin-top: 10%;
+        }
+        .container-founders {
+            margin-top: 0%;
+            background-color: rgba(1, 42, 51, 0.7);
+            z-index: 1;
+        }
+        .container-como {
+            margin-top: 10%;
+            background-color: rgba(242, 244, 244, 0.5);
+        }
+        .container-clients {
+            margin-top: 8%;
+        }
+        .container-testimonials {
+            margin-top: 0%;
+            background-color: rgba(31, 124, 149, 0.5);
+        }
+    }
+    #fondo-fondo-azul {
+        width: 100%;
+        background-color: $primary;
+        .container-call {
+            margin-top: -75%;
+            z-index: 1;
+        }
+        .container-footer {
+            margin-top: 6%;
+        }
+    }
+}
+
+// @media (min-width: 526px) {
+@media (min-width: 32.875em) {
+    #fondo-fondo {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;
+         
+        }
+        .container-banner {
+            margin-top: -50%;
+            }
+        .container-why {
+            margin-top: 10%;
+        }
+        .container-founders {
+            margin-top: 0%;
+        }
+        .container-como {
+            margin-top: 0%;
+        }
+        .container-clients {
+            margin-top: 20%;
+        }
+        .container-testimonials {
+            margin-top: 0%;
+        }
+    }
+    #fondo-fondo-azul {
+        width: 100%;
+        background-color: $primary;
+        .container-call {
+            margin-top: -70%;
+            z-index: 1;
+        }
+        .container-footer {
+            margin-top: 14%;
+        }
+    }
+}
+
+// @media (min-width: 630px) {
+@media (min-width: 39.375em) {
+    #container-body-home3 {
+        height: 174%;
+        background-size: 130% auto;
+    }
+    #container-body2-home3 {
+        height: 118%;
+        background-size: 125% auto;
+    }
+    #container-call-to-home3 {
+        height: 42%;
+        background-size: 160% auto;
+    }
+}

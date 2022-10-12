@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #sider-agendar { 
+        margin-top: 2%;       
+        .ant-card-body {
+            .ant-divider {
+                margin-top: 1%;
+                margin-bottom: 2%;
+            }
+            .ant-row {
+                display: flex;
+                justify-content: space-around;
+
+                h6 {
+                    text-align: left;
+                }
+                .inicio {
+                    p {
+                        text-align: left;
+                        margin-bottom: 1%;
+                    }
+                }
+                .final {
+                    p {
+                        text-align: right;
+                        margin-bottom: 1%;
+                    }
+                }
+            }
+            .ant-btn {
+                margin-top: 5%;
+            }
+        }
+                
+    }
+}

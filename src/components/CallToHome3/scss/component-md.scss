@@ -1,0 +1,48 @@
+@import '../../styles/colors';
+
+// @media (min-width: 768px) {
+@media (min-width: 48em) {
+    #call-to-home3 {
+        // background-color: white;
+        .cols-why-grovity {
+            justify-content: center;
+            margin-top: 18%;
+            h3 {
+                text-align: center;
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 170%;
+                margin-bottom: 3%;
+            }
+        }
+        .btn-call-to-home3 {
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveBold;
+            border: none;
+        }
+    }
+}
+// @media (min-width: 830px) {
+@media (min-width: 51.875em) {
+    #call-to-home3 {
+        // background-color: white;
+        .cols-why-grovity {
+            justify-content: center;
+            margin-top: 18%;
+            h3 {
+                text-align: center;
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 180%;
+                margin-bottom: 3%;
+            }
+        }
+        .btn-call-to-home3 {
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveBold;
+            border: none;
+        }
+    }
+}
