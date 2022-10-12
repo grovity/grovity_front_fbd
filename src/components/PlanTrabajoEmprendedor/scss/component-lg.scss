@@ -1,0 +1,60 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+  .row-plan-trabajo {
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 1.8vw;
+        text-align: start;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--reg);
+        text-align: start;
+        font-size: medium;
+      }
+
+      .info-program {
+          color: var(--secondary-text-color);
+      }
+
+      .btn-editar-plan {
+        color: var(--secondary-color);
+        padding-left: 7px;
+      }
+
+            
+    }
+  }
+  .description-plan {
+    margin-top: 3%;
+    position: relative;
+        height: 80px;
+        overflow-x: hidden;
+        p {
+            height: 100%;
+            width: 100%;
+            font-family: var(--light-font);
+      }
+  }
+  
+  .divider-plan-des {
+    height: 100px; 
+    border-color: var(--tertiary-text-color); 
+    margin-right: 2%;
+  }
+
+  .modales-plan {
+    .ant-modal-footer {
+      display: none;
+    }
+  }
+}

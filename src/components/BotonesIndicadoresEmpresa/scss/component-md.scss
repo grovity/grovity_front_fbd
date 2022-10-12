@@ -1,0 +1,26 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    #btns-indicadores-empresa {
+        .btn-accion {
+            background-color: $primary;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 2%;
+        }
+
+        .modales-indicador {
+            .ant-modal-header {
+                .ant-modal-title {
+                  color: $primary !important;
+                  font-size: 160%;
+                }
+              }
+        }
+
+    }
+}
