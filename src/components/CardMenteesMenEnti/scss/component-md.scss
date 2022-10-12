@@ -1,0 +1,93 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    #card-enti-emprendedor {
+        min-height: 210px;
+        .info-actividad {
+            h5 {
+                color: #242728;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            p {
+                margin-bottom: 1%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            .descripcion-emprendedor {
+                position: relative;
+                height: 90px;
+                overflow-x: hidden;
+                p {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+
+        .asistencia {
+            p {
+                margin-bottom: 2%;
+            }
+        }
+
+        .col-program-list {
+            position: relative;
+            height: 100px;
+            overflow-x: hidden;
+        }
+
+        .ant-divider {
+            margin-top: 2%;
+        }
+    }
+    #card-men-emprendedor {
+        min-height: 110px;
+        .info-actividad {
+            h5 {
+                color: #242728;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            p {
+                margin-bottom: 1%;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            } 
+        }
+        .descripcion-emprendedor {
+            position: relative;
+            height: 90px;
+            overflow-x: hidden;
+            p {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+        .asistencia {
+            p {
+                margin-bottom: 2%;
+            }
+        }
+
+        .col-program-list {
+            position: relative;
+            height: 100px;
+            overflow-x: hidden;
+        }
+
+        .ant-divider {
+            margin-top: 2%;
+        }
+    }
+}

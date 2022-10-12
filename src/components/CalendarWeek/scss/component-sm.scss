@@ -1,0 +1,23 @@
+@import "../../styles/colors";
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+
+  .form-week {
+    .mbsc-comp, mbsc-form-group, mbsc-form-group-title, .mbsc-mobiscroll, .mbsc-divider, .mbsc-mobiscroll {
+      background-color: transparent !important;
+    }
+
+    .mbsc-form-group-title {
+      background-color: transparent !important;
+      color: var(--secondary-color);
+      font-family: var(--medium);
+      font-size: x-large;
+      padding-left: 0;
+    }
+
+  }
+}
