@@ -1,0 +1,81 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #entidad-info-main {
+    .avatar {
+      position: relative;
+      background-color: var(--secondary-color);
+      width: 120px;
+      height: 120px;
+      margin: auto;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 4vw;
+      }
+      h4 {
+        color: var(--primary-text-color);
+        font-family: var(--medium);
+        font-size: 2.2vw;
+        text-align: start;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--light-font);
+        font-size: small;
+        text-align: start;
+
+        svg {
+          color: var(--primary-color);
+        }
+      }
+
+      .nit-p {
+        color: var(--primary-color);
+        font-family: var(--medium);
+        margin-right: 5%;
+      }
+
+      .datos-avatar {
+        display: none;
+        margin-bottom: 5%;
+      }
+      .btn-editar {
+        display: block;
+        justify-content: flex-end;
+    }
+    }
+    .ant-divider {
+        border-color: var(--tertiary-text-color);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    // .datos-entidad {
+    //     align-items: center;
+    //     .dato {
+    //         p {
+    //             color: #8ba2a5;            
+    //             font-family: ObjectiveLight;
+    //             margin-bottom: 0;
+    //             font-size: medium;
+    //             text-align: left;
+    //         }
+    //         .ant-divider-vertical {
+    //             margin-top: 0;
+    //             margin-bottom: 0;
+    //         }
+    //     }
+    // }
+  }
+}

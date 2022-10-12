@@ -1,0 +1,33 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 768px) {
+  #perfil-mentor-detalle {
+    .ant-layout-header {
+      padding-left: 0%;
+      padding-right: 0%;
+      margin-bottom: 3%;
+
+      h3 {
+        text-align: left;
+      }
+
+      .ant-divider-horizontal {
+        z-index: 100;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+    }
+    .ant-row {
+      .ant-col {
+        h2 {
+          font-size: 2.5vw;
+          margin-top: 10%;
+          padding-bottom: 2%;
+          text-align: start;
+        }
+      }
+    }
+  }
+}
