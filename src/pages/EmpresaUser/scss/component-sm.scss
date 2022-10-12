@@ -1,0 +1,27 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 0px) {
+  #empresa-user{
+    .ant-row {
+      .ant-col {
+        h2 {
+          font-family: var(--medium);
+          color: var(--secondary-color);
+          font-size: 3.9vw;
+          margin-top: 3% !important;
+          padding-bottom: 2%;
+          text-align: start;
+        }
+      }
+    }
+    .programas {
+      margin-top: 3%;
+      h5 {
+          color: var(--secondary-color);
+          font-family: var(--medium);
+          font-size: 3.5vw;
+      }
+    }
+  }
+}

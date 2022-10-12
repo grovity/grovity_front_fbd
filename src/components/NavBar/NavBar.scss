@@ -1,0 +1,253 @@
+@import "../styles/colors";
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  height: 64px;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+
+  &.show-shadow {
+    background: #FDFDFD;
+    box-shadow: 0 2px 8px rgba(229, 229, 229, 0.6);
+  }
+
+  .col-logo {
+    img {
+      width: 220px;
+    }
+  }
+
+  .cols-btns-navbar {
+    .btns-navbar {
+      color: white;
+      font-family: ObjectiveMedium;
+    }
+
+    .btns-navbar :hover {
+      color: $primary-green;
+    }
+  }
+
+  .avatar-mini {
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.header-nav-marketplace {
+  position: fixed;
+  z-index: 1000;
+  height: 120px;
+  padding: 0;
+  width: 100%;
+  background-color:  rgba(31, 124, 149, 0.8);
+
+  &.show-shadow {
+    background: #FDFDFD;
+    box-shadow: 0 2px 8px rgba(229, 229, 229, 0.6);
+  }
+
+  .col-logo {
+    img {
+      width: 220px;
+    }
+  }
+
+  .cols-btns-navbar {
+    .btns-navbar {
+      color: white;
+      font-family: ObjectiveMedium;
+    }
+
+    .btns-navbar :hover {
+      color: $primary-green;
+    }
+  }
+
+  .avatar-mini {
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+  .header-scroll {
+    position: fixed;
+    z-index: 1000;
+    height: 120px;
+    padding: 0;
+    width: 100%;
+    background: rgba(31, 124, 149, 0.5);
+
+      &.show-shadow {
+        background: #FDFDFD;
+        box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+      }
+
+      .col-logo {
+        img {
+          width: 220px;
+        }
+      }
+
+      .cols-btns-navbar {
+        .btns-navbar {
+          color: white;
+          font-family: ObjectiveMedium;
+        }
+
+        .btns-navbar :hover {
+          color: $primary;
+        }
+      }
+      .avatar-mini {
+        margin-left: 25%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+  }
+}
+@media (min-width: 1200px) {
+
+.header {
+  position: fixed;
+  z-index: 1000;
+  height: 64px;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+
+  &.show-shadow {
+    background: #FDFDFD;
+    box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+  }
+
+  .col-logo {
+    img {
+      width: 220px;
+    }
+  }
+
+  .cols-btns-navbar {
+    .btns-navbar {
+      color: white;
+      font-family: ObjectiveMedium;
+    }
+
+    .btns-navbar :hover {
+      color: $primary-green;
+    }
+  }
+
+  .avatar-mini {
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.header-nav-marketplace {
+  position: fixed;
+  z-index: 1000;
+  height: 120px;
+  padding: 0;
+  width: 100%;
+  background-color:  rgba(31, 124, 149, 0.8);
+
+  &.show-shadow {
+    background: #FDFDFD;
+    box-shadow: 0 2px 8px rgba(229, 229, 229, 0.6);
+  }
+
+  .col-logo {
+    img {
+      width: 220px;
+    }
+  }
+
+  .cols-btns-navbar {
+    .btns-navbar {
+      color: white;
+      font-family: ObjectiveMedium;
+    }
+
+    .btns-navbar :hover {
+      color: $primary-green;
+    }
+  }
+
+  .avatar-mini {
+    margin-left: 25%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+}
+
+  .header-scroll {
+    position: fixed;
+    z-index: 1000;
+    height: 120px;
+    padding: 0;
+    width: 100%;
+    background: rgba(31, 124, 149, 0.5);
+
+      &.show-shadow {
+        background: #FDFDFD;
+        box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+      }
+
+      .col-logo {
+        img {
+          width: 220px;
+        }
+      }
+
+      .cols-btns-navbar {
+        .btns-navbar {
+          color: white;
+          font-family: ObjectiveMedium;
+        }
+
+        .btns-navbar :hover {
+          color: $primary;
+        }
+      }
+      .avatar-mini {
+        margin-left: 25%;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+  }
+}

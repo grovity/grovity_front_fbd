@@ -1,0 +1,64 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #emprendedor-info {
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 4vw;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--light-font);
+        font-size: small;
+      }
+
+      .ant-col {
+        justify-content: start;
+
+        .datos-contacto {
+          text-align: start;
+          margin-right: 5%;
+        }
+
+        .btn-accion {
+          border-width: none;
+          margin-right: 10%;
+        }
+
+        .button-ant-editar {
+          padding: 4%;
+        }
+
+        .icon-editar {
+          margin-right: 6%;
+          margin-left: 4%;
+        }
+
+      }
+      .btn-editar {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    .bio-emprendedor {
+      margin-top: 7%;
+      h5 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: medium;
+      }
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--light-font);
+      }
+    }
+  }
+}

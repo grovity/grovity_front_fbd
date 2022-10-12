@@ -1,0 +1,18 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 922px) {
+  #home-user-entidad {
+    .eventos-hoy {
+      margin-left: 4%;
+      text-align: left;
+
+      h1 {
+        font-family: var(--bold);
+        color: var(--secondary-color);
+        font-size: 210%;
+        margin-top: 0;
+      }   
+    }
+  }
+}

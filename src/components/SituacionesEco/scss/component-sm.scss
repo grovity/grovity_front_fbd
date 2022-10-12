@@ -1,0 +1,34 @@
+@import '../../styles/colors';
+
+@media (min-width: 0em) {
+    #situaciones-eco {
+        background-color: white;
+        h2 {
+            text-align: center;
+            font-family: ObjectiveMedium;
+            color: #242728;
+            margin-bottom: 15%;
+            font-size: 130%;
+
+        }
+        .cols-why-grovity {
+            justify-content: center;
+           
+            p {
+                text-align: center;
+                font-family: ObjectiveLight;
+                color: #242728;
+                margin-bottom: 5%;
+                font-size: 85%;
+            }
+
+            .icons-why-grovity {
+                color: #242728;
+                text-align: center !important;
+                margin-top: 5%;
+                margin-left: 45%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import '../../styles/colors';
+
+@media (min-width: 0em) {
+    #why-eco-container {
+        background-color: #6c929c;
+        padding-bottom: 5%;
+
+        .founders-titulo {
+            margin-top: 5%;
+            margin-bottom: 0%;
+
+            h2 {
+                color: #242728;
+                align-self: center;
+                font-family: ObjectiveBold;
+                font-size: 120%;
+            }
+        }
+        .row-obtienes {
+            margin-top: 8%;
+        }
+
+        .cols-why-izq {
+            h3 {
+                font-family: ObjectiveBold;
+                color: $font-dark;
+                font-size: medium;
+            }
+
+            img {
+                width: 80%;
+            }
+            p {
+                font-size: 85%;
+            }
+        }
+
+        .cols-why-der {
+            text-align: right;
+            h3 {
+                font-family: ObjectiveBold;
+                color: $font-dark;
+                font-size: medium;
+            }
+            img {
+                width: 80%;
+            }
+            p {
+                font-size: 85%;
+            }
+        }
+    }
+}
