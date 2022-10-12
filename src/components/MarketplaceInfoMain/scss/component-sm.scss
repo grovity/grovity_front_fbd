@@ -1,0 +1,54 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #marketplace-info-main {
+        .ant-row {
+          justify-content: start;
+    
+          h1 {
+            color: var(--secondary-color);
+            font-family: var(--bold);
+            font-size: 4vw;
+            text-align: start;
+          }
+    
+          p {
+            color: var(--primary-text-color);
+            font-family: var(--light-font);
+            text-align: start;
+            font-size: small;
+          }
+    
+          .datos-contacto {
+            text-align: start;
+            margin-right: 5%;
+    
+            h5 {
+              color: var(--primary-text-color);
+              font-family: var(--bold);
+              font-size: medium;
+            }
+          }
+    
+          .ant-col {
+            //justify-content: start;    
+            .button-ant-save {
+                //justify-items: flex-end;
+                margin-left: 30%; 
+                .bookmark {
+                    margin-left: 8%;
+                  }
+                  .bookmark-fill {
+                    margin-left: 8%;
+                  }
+            }
+          }
+        }
+        .btn-agendar {
+            display: block;
+            justify-content: flex-end; 
+          }
+      }
+}

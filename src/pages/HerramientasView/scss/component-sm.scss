@@ -1,0 +1,30 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 0px) {
+    #herramientas-view {
+        .ant-layout-header {
+          padding-left: 0%;
+          padding-right: 0%;
+          margin-bottom: 13%;
+    
+          h3 {
+            text-align: left;
+            color: var(--secondary-color);
+            font-family: var(--bold);
+          }
+    
+          .btns-header {
+            padding-right: 0% !important;
+            bottom: 10%;
+        }     
+    
+          .header-marketplace {
+            border-color: var(--tertiary-text-color);
+            z-index: 100;
+            margin-top: 0px;
+            margin-bottom: 10px;
+          }
+        }
+    }
+}
