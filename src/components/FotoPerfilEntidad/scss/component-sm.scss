@@ -1,0 +1,79 @@
+@import '../../styles/colors';
+
+// small devices (0px and up)
+@media (min-width: 0px) {
+
+  #perfil-mentor-detalle > header {
+    margin-bottom: 0 !important;
+
+  }
+  #perfil-detalle-entidad {
+      padding: 3%;
+    .ant-row {
+      display: flex;
+      justify-content: center;
+    }
+
+      .avatar {
+      position: relative;
+      margin: auto;
+      background-color: var(--secondary-color);
+      min-width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    h5 {
+        text-align: left;
+        margin-top: 10%;
+        font-family: var(--bold);
+        color: var(--secondary-color);
+    }
+    p {
+        text-align: left;
+        font-family: var(--light-font);
+        color: var(--secondary-text-color);
+        font-size: 3.2vw;
+        margin-bottom: 1%;
+        svg {
+          color: var(--primary-color);
+        }
+    }
+
+    .ant-btn-text {
+      justify-content: center;
+      margin-bottom: 10%;
+      padding-left: 0%;
+      span {
+        color: var(--primary-color);
+        font-family: var(--primary-btn-font);
+      }
+      svg {
+        color: var(--primary-color);
+        margin-right: 4%;
+      }
+    }
+  }
+}
+
+
+@media (min-width: 576px) {
+  #perfil-detalle-entidad {
+    h5 {
+        text-align: left;
+        margin-top: 10%;
+    }
+    p {
+        text-align: left;
+        font-size: 2vw;
+        margin-bottom: 1%;
+    }
+    .ant-btn-text {
+      justify-content: center;
+      margin-bottom: 5%;
+    }
+  }
+}

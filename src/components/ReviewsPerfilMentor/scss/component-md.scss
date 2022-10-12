@@ -1,0 +1,31 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #reviews-perfil-mentor {
+        margin-top: 3%;
+
+        h3 {
+            font-size: medium;
+        }
+        .cards-reviews {
+            display: flex;
+            justify-content: space-between;
+
+            .ant-comment {
+                .ant-comment-inner {
+                    .ant-comment-content {
+                        .ant-comment-content-detail {
+                            text-align: left;
+
+                            .num-sesiones-reviews {
+                                color: #b1b0b0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+@import "../../components/styles/App.scss";
+@import "../../components/styles/_colors.scss";
+
+.row-objetivos-bootcamp {
+    background: white;
+    position: relative;
+    display: flex;
+    //height: 55%;
+
+    .imagen-objetivos {
+        //justify-content: end;
+        margin-left: 75%;
+        width: 100%;
+        height: auto;
+    }
+
+    .texto-objetivos {
+        z-index: 1;
+        position: absolute;
+        margin-top: 3%;
+
+        h4 {
+            color: #95c11f;
+            font-family: "ObjectiveBold";
+            margin-bottom: 4%;
+        }
+
+        p {
+            color: #567277;
+            font-family: "ObjectiveRegular";
+            margin-bottom: 5%;
+            font-size: 1.3vw;
+        }
+    }
+    .texto-objetivos-xs {
+        margin-top: 4%;
+
+        h4 {
+            color: #95c11f;
+            font-family: "ObjectiveBold";
+            margin-bottom: 4%;
+            font-size: 3.5vw;
+        }
+
+        p {
+            color: #567277;
+            font-family: "ObjectiveRegular";
+            margin-bottom: 5%;
+            font-size: 2.5vw;
+
+        }
+    }
+}
