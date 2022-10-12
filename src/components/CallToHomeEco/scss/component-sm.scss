@@ -1,0 +1,23 @@
+@import '../../styles/colors';
+
+@media (min-width: 0px) {
+    #call-to-home-eco {
+        .cols-why-grovity {
+            justify-content: center;
+            margin-top: 18%;
+        }
+        .btn-call-to-home3 {
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveMedium;
+            border: none;
+        }
+        .btn-call-to-home3:hover {
+            background-color: #b2d64f;
+            color: white;
+            font-family: ObjectiveMedium;
+            border-radius: 2px;
+            border: none;
+        }
+    }
+}
