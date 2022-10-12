@@ -1,0 +1,260 @@
+@import '../../styles/colors';
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+    #founders-home-container {
+        background-color: none;
+
+        .founders-titulo {
+            margin-top: 8%;
+            margin-bottom: 0%;
+
+            h1 {
+                color: $primary-green;
+                font-family: ObjectiveExtra;
+                font-size: 1000%;
+            }
+
+            h2 {
+                color: #242728;
+                align-self: center;
+                font-family: ObjectiveBold;
+                font-size: 170%;
+            }
+        }
+        .cols-founders-home {
+            justify-content: center;
+
+            img {
+                width: 210px;
+                box-shadow: 6px 7px 10px #242728, -12px 12px #e5e9ea, 12px -12px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: white;
+                margin-bottom: 20%;
+                font-size: 90%;
+                background-color: rgba(0, 0, 0, 0.2);
+            }       
+        }
+        .cols-founders-home-blanco {
+            justify-content: center;
+
+            img {
+                width: 210px;
+                box-shadow: 6px 7px 10px #242728, -12px 12px #e5e9ea, 12px -12px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: #242728;
+                margin-bottom: 20%;
+                font-size: 90%;
+            }       
+        }
+    }
+}
+
+// @media (min-width: 1200px) {
+@media (min-width: 75em) {
+    #founders-home-container {
+        background-color: none;
+
+        .founders-titulo {
+            margin-top: 8%;
+            margin-bottom: 7%;
+
+            h1 {
+                color: $primary-green;
+                font-family: ObjectiveExtra;
+                font-size: 1000%;
+            }
+
+            h2 {
+                color: #242728;
+                align-self: center;
+                font-family: ObjectiveBold;
+            }
+        }
+        .cols-founders-home {
+            justify-content: center;
+
+            img {
+                width: 240px;
+                box-shadow: 6px 7px 12px #242728, -20px 20px #e5e9ea, 20px -20px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: white;
+                margin-bottom: 10%;
+                font-size: 90%;
+                
+            }       
+        }
+        .cols-founders-home-blanco {
+            justify-content: center;
+
+            img {
+                width: 240px;
+                box-shadow: 6px 7px 12px #242728, -20px 20px #e5e9ea, 20px -20px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+    }
+}
+
+// @media (min-width: 1350px) {
+@media (min-width: 84.375em) {
+    #founders-home-container {
+        background-color: none;
+
+        .founders-titulo {
+            margin-top: 8%;
+            margin-bottom: 7%;
+
+            h1 {
+                color: $primary-green;
+                font-family: ObjectiveExtra;
+                font-size: 1000%;
+            }
+
+            h2 {
+                color: #242728;
+                align-self: center;
+                font-family: ObjectiveBold;
+            }
+        }
+        .cols-founders-home {
+            justify-content: center;
+
+            img {
+                width: 270px;
+                box-shadow: 6px 7px 12px #242728, -20px 20px #e5e9ea, 20px -20px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: white;
+                margin-bottom: 10%;
+                font-size: 90%;
+                
+            }       
+        }
+        .cols-founders-home-blanco {
+            justify-content: center;
+
+            img {
+                width: 270px;
+                box-shadow: 6px 7px 12px #242728, -20px 20px #e5e9ea, 20px -20px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+    }
+}
+// @media (min-width: 1600px) {
+@media (min-width: 100em) {
+    #founders-home-container {
+        background-color: none;
+
+        .founders-titulo {
+            margin-top: 8%;
+            margin-bottom: 7%;
+
+            h1 {
+                color: $primary-green;
+                font-family: ObjectiveExtra;
+                font-size: 1000%;
+            }
+
+            h2 {
+                color: #242728;
+                align-self: center;
+                font-family: ObjectiveBold;
+            }
+        }
+        .cols-founders-home {
+            justify-content: center;
+
+            img {
+                width: 290px;
+                box-shadow: 6px 7px 12px #242728, -20px 20px #e5e9ea, 20px -20px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: white;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: white;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+        .cols-founders-home-blanco {
+            justify-content: center;
+
+            img {
+                width: 290px;
+                box-shadow: 6px 7px 12px #242728, -20px 20px #e5e9ea, 20px -20px #8ba2a5;
+                margin-bottom: 15%;
+            }
+            h3 {
+                font-family: ObjectiveMedium;
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                font-family: ObjectiveLight;
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+    }
+}

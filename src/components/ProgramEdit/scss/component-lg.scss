@@ -1,0 +1,42 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+  #editar-programa {
+    h4 {
+      color: var(--secondary-color);
+      margin-bottom: 3%;
+    }
+
+    .avatar {
+      position: relative;
+      background-color: var(--secondary-color);
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      border-radius: 10%;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      svg {
+        width: 30px;
+        margin-top: 40%;
+        margin-left: 40%;
+        fill: var(--paper-color);
+        &:hover {
+          fill: var(--primary-text-color);
+        }
+      }
+    }
+
+    .divider-sections {
+      border-color: var(--primary-color);
+    }
+  }
+}
