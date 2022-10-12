@@ -1,0 +1,45 @@
+@import '../../styles/colors';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+  #perfil-detalle-entidad {
+
+    .col-info-user {
+      margin-left: 10%;
+    }
+    h5 {
+        text-align: left;
+        margin-top: 10%;
+        font-family: var(--bold);
+        color: var(--secondary-color);
+    }
+    p {
+        text-align: left;
+        font-family: var(--light-font);
+        color: var(--secondary-text-color);
+        font-size: 1.2vw;
+        margin-bottom: 2%;
+    }
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  #perfil-detalle-entidad {
+    .col-info-user {
+      margin-left: 30%;
+    }
+
+    h5 {
+        text-align: left;
+        margin-top: 10%;
+    }
+    p {
+        text-align: left;
+        font-size: 0.8vw;
+        margin-bottom: 2%;
+    }   
+  }
+}

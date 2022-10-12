@@ -1,0 +1,79 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    .perfil-usuario {
+        background-color: var(--light-color);
+        padding: 3%;
+      
+        .avatar {
+          position: relative;
+          margin: auto;
+          background-color: var(--secondary-color);
+          width: 220px;
+          height: 220px;
+          border-radius: 50%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+      
+        .nombre-cargo {
+          border-bottom: 1px solid var(--secondary-color);
+          margin: 7%;
+      
+          h5 {
+            font-family: var(--bold);
+            color: var(--secondary-color);
+          }
+      
+          p {
+            font-family: var(--light-font);
+            color: var(--primary-text-color);
+            font-size: small;
+            margin-bottom: 1%;
+      
+          }
+        }
+      
+        .resumen-user {
+          border-bottom: 1px solid var(--primary-text-color);
+          margin: 7%;
+          text-align: left;
+      
+          h5 {
+            font-family: var(--bold);
+            color: var(--secondary-color);
+          }      
+        }
+      
+        .resumen-empresa {
+          margin: 7%;
+          text-align: left;
+      
+          h4, h5 {
+            font-family: var(--bold);
+            color: var(--secondary-color);
+          }
+      
+          p {
+            font-family: var(--light-font);
+            color: var(--primary-text-color);
+            font-size: small;
+            margin-bottom: 3%;
+      
+          }
+        }
+      
+        .ant-progress {
+          padding-bottom: 5%;
+        }
+      
+        .redes {
+          img {
+            margin-right: 4%;
+          }
+        }
+      }
+}
