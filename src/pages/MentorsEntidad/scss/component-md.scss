@@ -1,0 +1,32 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 768px) {
+    #mentores-entidad {
+        .ant-layout-header {
+          padding-left: 0%;
+          padding-right: 0%;
+          margin-bottom: 3%;
+    
+          h3 {
+            text-align: left;
+            color: var(--secondary-color);
+          }
+    
+          .btns-header {
+            padding-right: 0% !important;
+        }     
+    
+          .header-marketplace {
+            border-color: var(--tertiary-text-color);
+            z-index: 100;
+            margin-top: 0px;
+            margin-bottom: 10px;
+          }
+        }   
+        
+        .content-mentores-entidad {
+          margin-top: 13%;
+        }
+    }
+}

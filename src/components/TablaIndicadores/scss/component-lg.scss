@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+  #tabla-indicadores {
+        .ant-btn {
+          justify-self: start;
+          background-color: var(--primary-color);
+          border: none;
+          font-family: var(--medium);
+        }
+  }
+}

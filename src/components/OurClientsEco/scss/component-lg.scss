@@ -1,0 +1,27 @@
+@import "../../styles/colors";
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+  #our-clients-eco-container {
+      background-color: #dddddd;
+
+      .founders-titulo {
+          margin-top: -25%;
+          margin-bottom: 5%;
+
+          h2 {
+              color: #242728;
+              align-self: center;
+              font-family: ObjectiveBold;
+              font-size: 170%;
+          }
+      }
+      .cols-como-home-blanco {
+          justify-content: center;
+
+          img {
+              width: 100%;
+          }       
+      }
+  }
+}

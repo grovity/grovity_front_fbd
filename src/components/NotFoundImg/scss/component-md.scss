@@ -1,0 +1,36 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    .fondo-not-found {
+        background-image: url('../../../assets/images/errorPages/1.5x/Artboard\ 2@1.5x.png');
+        background-size: cover;
+        height: 100vh;
+
+        .ant-row {
+            display: flex;
+            
+            .ant-col {
+                margin-top: 50%;
+                left: 10%;
+                justify-content: end;
+
+                .ant-btn {
+                    justify-self: end !important;
+                    left: 83%;
+                }
+            }
+        }
+        h1 {
+            font-size: 16vw;
+            text-align: end;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: larger;
+            text-align: end;
+        }
+    }
+}

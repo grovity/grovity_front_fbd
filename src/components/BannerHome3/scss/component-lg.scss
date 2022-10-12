@@ -1,0 +1,171 @@
+@import '../../styles/colors';
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+    #banner-home3 {
+        // background-color: white;
+        // background-image: url('../../../assets/images/home3/img1-fondo-azul.jpg');
+        // height: 58%;
+        // width: 100%;
+        // background-size: 100% auto;
+        // background-repeat: no-repeat;
+
+        .col-banner-text {
+            margin-top: 30%;
+            h1 {
+                color: white;
+                font-family: ObjectiveExtra;
+                font-size: 180%;
+            }
+            p {
+                color: white;
+                font-family: ObjectiveRegular;
+            }
+
+            .btn-banner-home3 {
+                background-color: $primary-green;
+                color: white;
+                font-family: ObjectiveMedium;
+                border: none;
+            }
+        }
+    }
+}
+
+// @media (min-width: 1023px) {
+@media (min-width: 63.9375em) {
+    #banner-home3 {
+    //     background-image: url('../../../assets/images/home3/img1-fondo-azul.jpg');
+    //     height: 42%;
+    //     width: 100%;
+    //     background-size: 100% auto;
+    //     background-repeat: no-repeat;
+    // }
+
+    .col-banner-text {
+        margin-top: 0%;
+        h1 {
+            color: white;
+            font-family: ObjectiveExtra;
+        }
+        p {
+            color: white;
+            font-family: ObjectiveRegular;
+        }
+    }
+}
+}
+// @media (min-width: 1024px) {
+@media (min-width: 64em) {
+    #banner-home3 {
+    //     background-image: url('../../../assets/images/home3/img1-fondo-azul.jpg');
+    //     height: 42%;
+    //     width: 100%;
+    //     background-size: 100% auto;
+    //     background-repeat: no-repeat;
+    // }
+
+    .col-banner-text {
+        margin-top: 0%;
+        h1 {
+            color: white;
+            font-family: ObjectiveExtra;
+        }
+        p {
+            color: white;
+            font-family: ObjectiveRegular;
+        }
+    }
+}
+}
+
+// @media (min-width: 1025px) {
+@media (min-width: 64.0625em) {
+    #banner-home3 {
+    //     background-image: url('../../../assets/images/home3/img1-fondo-azul.jpg');
+    //     height: 60%;
+    //     width: 100%;
+    //     background-size: 100% auto;
+    //     background-repeat: no-repeat;
+    // }
+
+    .col-banner-text {
+        margin-top: 0%;
+        h1 {
+            color: white;
+            font-family: ObjectiveExtra;
+        }
+        p {
+            color: white;
+            font-family: ObjectiveRegular;
+        }
+    }
+}
+}
+
+// @media (min-width: 1200px) {
+@media (min-width: 75em) {
+    #banner-home3 {
+        // background-image: url('../../../assets/images/home3/img1-fondo-azul@1\,25x.jpg');
+        // height: 78%;
+        // width: 100%;
+        // background-size: 105% auto;
+        // background-repeat: no-repeat;
+
+        .col-banner-text {
+            margin-top: 30%;
+            h1 {
+                color: white;
+                font-family: ObjectiveExtra;
+                font-size: 280%;
+            }
+            p {
+                color: white;
+                font-family: ObjectiveRegular;
+                font-size: 120%;
+            }
+        }
+    }
+}
+
+// // @media (min-width: 1350px) {
+// @media (min-width: 84.375em) {
+//     #banner-home3 {
+//         background-image: url('../../../assets/images/home3/img1-fondo-azul@1\,5x.jpg');
+//         height: 85%;
+//         width: 100%;
+//         background-size: 105% auto;
+//         background-repeat: no-repeat;
+//     }
+// }
+// // @media (min-width: 1500px) {
+// @media (min-width: 93.75em) {
+//     #banner-home3 {
+//         background-image: url('../../../assets/images/home3/img1-fondo-azul@1\,5x.jpg');
+//         height: 90%;
+//         width: 100%;
+//         background-size: 100% auto;
+//         background-repeat: no-repeat;
+//     }
+// }
+
+// // @media (min-width: 1600px) {
+// @media (min-width: 100em) {
+//     #banner-home3 {
+//         background-image: url('../../../assets/images/home3/img1-fondo-azul@1\,5x.jpg');
+//         height: 100%;
+//         width: 100%;
+//         background-size: 100% auto;
+//         background-repeat: no-repeat;
+//     }
+// }
+// // @media (min-width: 1700px) {
+// @media (min-width: 106.25em) {
+//     #banner-home3 {
+//         background-image: url('../../../assets/images/home3/img1-fondo-azul@1\,5x.jpg');
+//         height: 110%;
+//         width: 100%;
+//         background-size: 100% auto;
+//         background-repeat: no-repeat;
+//     }
+// }

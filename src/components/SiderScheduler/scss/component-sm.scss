@@ -1,0 +1,24 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #sider-schedule {        
+        .ant-card-body {
+            .ant-btn {
+                background-color: var(--secondary-color);
+                color: var(--paper-color);
+                font-family: var(--bold);
+                margin-top: 5%;      
+            }
+            .ant-btn-link {
+                background-color: transparent;
+                color: var(--secondary-color);
+                font-family: var(--light-font);
+                margin-top: 2%;
+                font-size: small;
+                text-decoration: underline;
+            }
+        }         
+    }
+}

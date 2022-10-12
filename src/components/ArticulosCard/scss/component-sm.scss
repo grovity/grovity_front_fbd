@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+    
+    .articulo-card {
+        display: grid;
+        grid: 135px auto / 270px;
+    }
+
+    .ant-card-meta{
+        margin-bottom: 3%;
+    }
+}
