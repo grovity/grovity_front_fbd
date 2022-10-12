@@ -1,0 +1,95 @@
+@import "../../components/styles/App.scss";
+
+.fondo-contador-escuela {
+  background-color: white;
+  text-align: center;
+  //padding-bottom: 3%;
+  .mentores-section2 {
+    margin: auto;
+    padding-top: 2%;
+    background-color: white;
+
+    .contador {
+      position: relative;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 0%;
+      h1 {
+        font-family: 'ObjectiveBold';
+        font-size: 4vw;
+        color: #686866;
+      }
+      h3 {
+        font-family: 'ObjectiveBold';
+        font-size: 2vw;
+        color: #05ddd7;
+      }
+      span {
+        font-family: 'ObjectiveBold';
+        font-size: 4vw;
+        color: #05ddd7;
+      }
+    }
+    
+    .ant-row {
+      margin-top: 2%;
+      justify-content: center;
+
+      .ant-col {
+        hr {
+            margin-bottom: 5%;
+            border-color: #686866;
+        }
+       
+        h4 {
+            color: #686866;
+            font-family: ObjectiveMedium;
+            font-size: 180%;
+            margin-bottom: 2%;
+            margin-top: 3%;
+        }
+        h5 {
+          color: #05ddd7;
+          font-family: 'ObjectiveBold';
+          font-size: 250%;
+          margin-bottom: 3%;
+        }
+        h6 {
+          color: #bababa;
+          font-family: "ObjectiveRegular"; 
+          //opacity: 60%;          
+        }
+        p {
+            color: #686866;
+            font-family: ObjectiveRegular;
+            font-size: 120%;
+        }
+      }    
+  }
+}
+.boton-contador-escuela {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+      
+    .menu-item {
+        .button-call {
+            background-color: #05ddd7;
+            border-radius: 8px;
+            border-width: 0px;
+            padding: 3%;
+            margin-bottom: 10%;
+            width: 105%;
+            height: 25%;
+            span {
+              color: white;
+              font-size: 200%;
+              font-family: ObjectiveMedium;
+            }
+          }
+    }
+    
+}
+}
+
+

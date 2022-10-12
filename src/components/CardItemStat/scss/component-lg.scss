@@ -1,0 +1,74 @@
+@import "../../styles/App.scss";
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+#card-stat {
+    #col-icon {
+        justify-content: center;
+        padding-left: 7%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+
+        img {
+          width: 70%;
+        }
+        
+    }
+      #col-stat {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        padding-top: 3%;
+        padding-left: 3%;
+        text-align: start;
+    
+        h5 {
+          color: var(--secondary-color);
+          font-family: var(--bold);
+          font-size: large;
+        }
+    
+        h4 {
+          color: var(--secondary-color);
+          font-family: var(--bold);
+          margin-bottom: 0;
+          color: var(--secondary-text-color);
+          font-size: 200% !important;
+        }    
+      }
+}
+}
+
+@media (min-width: 1200px) {
+#card-stat {
+    #col-icon {
+        justify-content: center;
+        padding-left: 7%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+
+        img {
+          width: 45%;
+        }
+        
+    }
+      #col-stat {
+        margin-top: 6%;
+        margin-bottom: 6%;
+        padding-top: 3%;
+        padding-left: 3%;
+        text-align: start;
+    
+        h5 {
+          font-family: var(--bold);
+          font-size: large;
+        }
+    
+        h4 {
+          font-family: var(--bold);
+          margin-bottom: 0;
+          font-size: larger;
+        }    
+      }
+}
+}

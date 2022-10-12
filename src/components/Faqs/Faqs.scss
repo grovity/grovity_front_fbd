@@ -1,0 +1,85 @@
+@import "../styles/colors";
+
+.fondo-faqs {
+    width: 100%;
+    background-color: white;
+
+    .faqsContainer {
+        display: flex;
+        justify-content: center;
+  
+        .containerFaqs {
+            .secondary-row {
+                display: flex;
+                justify-content: stretch;
+                margin-top: 5%;
+                margin-bottom: 1%;
+
+                h3 {
+                    font-family: ObjectiveBold;
+                    color: $primary;
+                    margin-bottom: 3%;
+                    justify-self: start;
+                }
+            }
+
+            .main-collapse {
+                margin-bottom: 10%;
+                .ant-collapse-header {
+                    font-family: ObjectiveBold;
+                    font-size: large;
+                }
+            }
+            .secondary-collapse-faqs {
+                .ant-collapse-header {
+                    font-family: ObjectiveRegular;
+                    font-size: medium;
+                }
+            }
+        }  
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 1000px) {
+    .fondo-faqs {
+        width: 100%;
+        background-color: white;
+    
+        .faqsContainer {
+            display: flex;
+            justify-content: center;
+      
+            .containerFaqs {
+                .secondary-row {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 5%;
+                    margin-bottom: 3%;
+    
+                    h3 {
+                        font-family: ObjectiveBold;
+                        color: $primary;
+                        margin-bottom: 3%;
+                        justify-self: start;
+                    }
+                }
+
+                .main-collapse {
+                    margin-bottom: 10%;
+                    .ant-collapse-header {
+                        font-family: ObjectiveBold;
+                        font-size: small;
+                    }
+                }
+                   
+                .secondary-collapse-faqs {
+                    .ant-collapse-header {
+                        font-family: ObjectiveRegular;
+                        font-size: small;
+                    }
+                }
+            }  
+        }
+    }
+}

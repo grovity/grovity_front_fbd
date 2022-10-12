@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #footer-scheduler {
+           
+        .ant-btn {
+            background-color: var(--primary-color) !important;
+            color: var(--paper-color);
+            font-family: var(--reg);
+        }
+    }
+}
