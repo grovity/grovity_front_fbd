@@ -1,0 +1,43 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+.videos-soporte-fondo {
+    background-color: white;
+    padding-top: 2%;
+    //padding-bottom: 3%;
+    display: grid;
+    grid: auto / auto;
+    justify-content: center;
+}
+
+.metadata {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    
+    .videos-soporte-container {
+        max-width: 667px;   
+    }
+}
+
+@media all and (min-width: 1096px) {
+    .videos-soporte-container {
+      max-width: 1024px;
+    }
+  }
+  
+  @media all and (min-width: 1370px) {
+    .videos-soporte-container {
+      max-width: 1284px;
+    }
+  }
+  
+  @media all and (min-width: 1560px) {
+    .videos-soporte-container {
+      max-width: 1324px;
+    }
+  }
+
