@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+
+@media (min-width: 768px) {
+    #quote-eco {
+        background-color: white;
+        h3 {
+            text-align: center;
+            font-family: ObjectiveMedium;
+            color: $primary-green;
+            margin-bottom: 10%;
+            font-size: x-large;
+        }
+    }
+}

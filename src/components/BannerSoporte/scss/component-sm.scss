@@ -1,0 +1,68 @@
+@import "../../styles/colors";
+@import "../../styles/App.scss";
+
+@media (min-width: 0px) {
+
+.banner-soporte  {
+  margin-bottom: 5%;
+    svg {
+      display: block;
+      margin-left: -30px;
+      padding-top: 20%;
+    }
+  
+    > div {
+      display: inline-block;
+    }
+  
+    h1 {
+      font-size: 3vw;
+      position: absolute;
+      width: 60%;
+      top: 3%;
+      left: 30% !important;
+      color: white;
+      font-family: ObjectiveBold;
+      padding-top: 12%;
+      padding-bottom: 15%;
+    }
+
+    .ant-input-search {
+        position: absolute;
+        width: 60%;
+        top: 10%;
+        left: 20% !important;
+        margin-top: 7%;
+
+        .ant-btn {
+            background-color: $primary-green;
+            border-width: 0px;
+        }
+    }
+  
+    p {
+      font-size:1.8vw;
+      position: absolute;
+      width: 40%;
+      top: 0%;
+      left: 6% !important;
+      margin-top: -5%;
+      color: white;
+      font-family: ObjectiveThin;
+      padding-top: 25%;
+      padding-bottom: 3%;
+    }
+  }
+
+  .articulosSoporte {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .videosSoporte {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+}

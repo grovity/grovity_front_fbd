@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #barra-top-filtros {
+        .ant-row {
+            .resultados {
+                p {
+                    text-align: left;
+                    color: var(--primary-text-color);
+                    font-family: var(--medium);
+                }
+            }
+            .order {
+                p {
+                    color: var(--primary-text-color);
+                    font-family: var(--medium);
+                    text-align: right;
+                    font-size: small;
+                }                
+            }
+        }
+    }
+}

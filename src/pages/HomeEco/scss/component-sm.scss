@@ -1,0 +1,106 @@
+@import '../../../components/styles/colors';
+
+@media (min-width: 0em) {
+    #fondo-fondo-eco {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;         
+        }
+        .container-banner {
+            margin-top: -52%;
+            }
+        .container-why {
+            margin-top: 10%;
+        }
+        .container-como {
+            margin-top: 10%;
+            background-color: rgba(242, 244, 244, 0.5);
+        }
+        .container-mentores-eco {
+            margin-top: -3%;
+            background-color: #dddddd; 
+        }
+        .container-pricing {
+            padding-top: 2%;
+            padding-bottom: 10%;
+            background-color: #dddddd; 
+        }
+        .container-clients {
+            padding-top: 20%;
+            padding-bottom: 22%;
+            background-color: #dddddd; 
+        }
+    }
+    #fondo-fondo-azul {
+        width: 100%;
+        background-color: $primary;
+        .container-call {
+            margin-top: -22%;
+            z-index: 1;
+        }
+        .container-footer {
+            margin-top: 10%;
+        }
+    }
+}
+
+// @media (min-width: 526px) {
+@media (min-width: 32.875em) {
+    #fondo-fondo-eco {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;
+         
+        }
+        .container-banner {
+            margin-top: -50%;
+            }
+        .container-why {
+            margin-top: 10%;
+        }
+        .container-como {
+            margin-top: 0%;
+        }
+        .container-mentores-eco {
+            margin-top: -3%;
+            background-color: #dddddd; 
+
+        }
+        .container-clients {
+            padding-top: 17%;
+            padding-bottom: 19%;
+            background-color: #dddddd; 
+        }
+    }
+    #fondo-fondo-azul {
+        width: 100%;
+        background-color: $primary;
+        .container-call {
+            margin-top: -22%;
+            z-index: 1;
+        }
+        .container-footer {
+            margin-top: 14%;
+        }
+    }
+}
+
+// @media (min-width: 630px) {
+@media (min-width: 39.375em) {
+    #container-body-home3 {
+        height: 174%;
+        background-size: 130% auto;
+    }
+    #container-body2-home3 {
+        height: 118%;
+        background-size: 125% auto;
+    }
+    #container-call-to-home3 {
+        height: 42%;
+        background-size: 160% auto;
+    }
+}
