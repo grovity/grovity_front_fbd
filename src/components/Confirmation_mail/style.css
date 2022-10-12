@@ -1,0 +1,8 @@
+.align_vertical {
+    color: #94c11f;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+
+// @media (min-width: 768px) {
+@media (min-width: 48em) {
+    #banner-home-eco {
+        .col-banner-text {
+            margin-top: 20%;
+            h1 {
+                font-family: ObjectiveExtra;
+                font-size: 150%;
+            }
+            p {
+                font-family: ObjectiveRegular;
+                font-size: 95%;
+            }
+
+            .btn-banner-home3 {
+                background-color: $primary-green;
+                color: white;
+                font-family: ObjectiveMedium;
+                border: none;
+            }
+            .btn-banner-home3:hover {
+                background-color: #b2d64f;
+                color: white;
+                font-family: ObjectiveMedium;
+                border-radius: 2px;
+                border: none;
+            }
+        }
+    }
+}

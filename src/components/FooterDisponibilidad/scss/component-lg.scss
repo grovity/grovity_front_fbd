@@ -1,0 +1,12 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    #footer-disponibilidad {
+        .ant-btn {
+            background-color: $primary-green;
+            color: white;
+        }
+    }
+}
