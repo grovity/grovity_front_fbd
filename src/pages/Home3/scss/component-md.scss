@@ -1,0 +1,90 @@
+@import '../../../components/styles/colors';
+
+// @media (min-width: 768px) {
+@media (min-width: 48em) {
+    #fondo-fondo {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;         
+        }
+        .container-banner {
+            margin-top: -50%;
+            }
+        .container-why {
+            margin-top: 15%;
+        }
+        .container-founders {
+            margin-top: 0%;
+            background-color: rgba(1, 42, 51, 0.7);
+            z-index: 1;
+        }
+        .container-como {
+            margin-top: 0%;
+            background-color: rgba(242, 244, 244, 0.5);
+        }
+        .container-clients {
+            margin-top: 5%;
+        }
+        .container-testimonials {
+            margin-top: 0%;
+            background-color: rgba(31, 124, 149, 0.5);
+        }
+    }
+    #fondo-fondo-azul {
+        width: 100%;
+        background-color: $primary;
+        .container-call {
+            margin-top: -65%;
+            z-index: 1;
+        }
+        .container-footer {
+            margin-top: 6%;
+        }
+    }
+}
+// @media (min-width: 769px) {
+@media (min-width: 48.0625em) {
+    #fondo-fondo {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;
+
+            .img-1 {
+                width: 100%;
+            }
+        }
+        .container-banner {
+            margin-top: -48%;
+            }
+        .container-why {
+            margin-top: 15%;
+        }
+        .container-founders {
+            margin-top: -185%;
+            background-color: white;
+            
+        }
+        .container-como {
+            margin-top: 0%;
+            background-color: white;
+        }
+        .container-clients {
+            margin-top: 10%;
+        }
+        .container-testimonials {
+            margin-top: -80%;
+            background-color: white;
+        }
+        #fondo-fondo-azul {
+            width: 100%;
+            background-color: $primary;
+            .container-call {
+                margin-top: -38%;
+            }
+        }
+    }
+}

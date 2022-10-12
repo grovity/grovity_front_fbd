@@ -1,0 +1,27 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #tabs-mentor-info {
+        .ant-tabs {
+
+            .ant-card {
+                .ant-row {
+                    align-items: center;
+                    .ant-col {
+                        .ant-card-meta-avatar {
+                            margin-left: 15%;
+                        }
+                        .ant-card-meta-title {
+                            text-align: left;
+                        }
+                        .ant-card-meta-description {
+                            text-align: left;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

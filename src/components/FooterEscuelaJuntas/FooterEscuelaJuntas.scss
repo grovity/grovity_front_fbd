@@ -1,0 +1,46 @@
+@import "../styles/colors";
+@import "../styles/App.scss";
+
+
+.sectionFooterJuntas {
+    display: grid;
+    width: 100%;
+    background-color: #2b2b2b;
+    
+    .title{
+        display: grid;
+        justify-items: center;
+        padding-top: 3%;
+        h2 {
+            color: white;
+            text-align: center;
+        }
+    }
+    
+    .logos {
+        justify-content: space-around;
+        .logo img {
+            justify-self: center;
+            margin-left: 25%;
+        }
+
+    }
+   
+
+    .copyRight {
+        background-color: #191919;
+        height: 50px;
+        align-items: center;
+        .ant-col {
+            h6 {
+                font-family: "ObjectiveRegular";
+                color: white;
+                padding-top: 1%;
+                font-size: 0.7vw;
+                img {
+                    width: 1.8%;
+                }
+            }
+        }
+    }
+}

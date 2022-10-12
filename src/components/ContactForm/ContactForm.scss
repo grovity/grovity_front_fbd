@@ -1,0 +1,49 @@
+@import "../../components/styles/App.scss";
+.sign-up-form-white {
+  text-align: center;
+  h2 {
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: $primary;
+    font-family: ObjectiveMedium;
+    text-align: left !important;
+  }
+
+  .form-group {
+    padding-bottom: 20px;
+    input, select{
+      font-size: 20px;
+      color: black;
+      background-color: white !important;
+      margin-bottom: 7%;
+      border-bottom: 1px solid $primary-green;
+    }
+    textarea {
+      font-size: 20px;
+      color: black;
+      background-color: white !important;
+      border: 1px solid $primary-green;
+      height: 100%;
+    }
+  }
+
+  button {
+    width: 40%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    background: $primary;
+    border: 1px solid $primary;
+     .spinner-border {
+      width: 25px;
+      height: 25px;
+    }
+    img {
+       width: 10% !important;
+       margin-left: 10%;
+       height: auto;
+    }
+  }
+}

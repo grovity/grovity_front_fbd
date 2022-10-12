@@ -1,0 +1,31 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #filtro-areas {
+        margin-top: 5%;
+        h5 {
+            font-family: var(--bold);
+            color: var(--primary-text-color);
+            text-align: left;
+        }
+        .ant-row {
+            display: flex;
+            justify-content: stretch;
+            .ant-col {
+                text-align: start;  
+            }
+            .checkboxes {
+                .seleccion {
+                    .ant-checkbox-checked {
+                        .ant-checkbox-inner {
+                            background-color: var(--secondary-color) !important;
+                            border-color: var(--secondary-color) !important;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
