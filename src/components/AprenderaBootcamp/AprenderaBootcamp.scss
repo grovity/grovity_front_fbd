@@ -1,0 +1,47 @@
+@import "../../components/styles/App.scss";
+
+.aprendera-bootcamp {
+  background: #686866;
+  // color: $primary;
+  // font-family: ObjectiveMedium;
+
+  .containerBootcamp {
+    width: 90%;
+  }
+  .ant-col {
+    background-color: white;
+    padding: 2%;
+    //justify-content: center;
+    .ant-row.title {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+
+        h2 {
+            color: #00495d;
+            padding-bottom: 2%;
+            font-family: "ObjectiveMedium";
+        }
+        hr {
+            position: absolute;
+            border-width: 1px;
+            border-color: #00495d;
+            width: 35%;
+            margin-top: 4%;
+        }
+    }
+
+    p {
+      margin-left: 14%;
+      font-size: 1.2vw;
+      font-family: "ObjectiveLight";
+      color: #567277;
+      text-align: left;
+      text-justify: inter-word;
+      padding-top: 0%;
+      padding-right: 7%;
+    }
+  }
+}

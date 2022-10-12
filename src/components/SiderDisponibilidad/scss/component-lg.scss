@@ -1,0 +1,25 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+  #sider-schedule{
+    position: relative;
+
+
+    .btn-agregar-disponibilidad {
+      margin-top: 5%;
+      background-color: var(--secondary-color);
+      color: var(--paper-color);
+      font-family: var(--medium);
+    }
+
+    .ant-btn-link {
+      span {
+        color: var(--secondary-color);
+        font-family: var(--reg) !important;
+      }
+    }
+  }
+}
+

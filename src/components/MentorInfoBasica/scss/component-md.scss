@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #mentor-info-basica {
+        .ant-divider {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .datos-mentor {
+            align-items: center;
+            .dato {
+                p {           
+                    margin-bottom: 0;
+                    font-size: small;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 5%;
+            .bio {
+                h4 {
+                    font-size: 2.3vw !important;
+                    text-align: left;
+                }
+                p {
+                    font-size: 1.8vw !important;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
