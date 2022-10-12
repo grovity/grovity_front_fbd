@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    #card-herramientas {
+        margin-left: 1.2%;
+        margin-right: 1.2%;
+        .description-activity {
+            position: relative;
+            height: 90px;
+            overflow-x: hidden;
+            p {
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .lista-mentores {
+            position: relative;
+            height: 90px;
+            overflow-x: hidden;
+            p {
+                width: 100%;
+            }
+        }
+        .info-actividad {
+            h5 {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .responsables-actividad {
+                margin-bottom: 1.8%;
+            }
+        }
+    }
+}

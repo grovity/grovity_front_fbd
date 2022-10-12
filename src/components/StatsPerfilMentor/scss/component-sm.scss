@@ -1,0 +1,60 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #stats-perfil-mentor {
+        margin-top: 3%;
+
+        h3 {
+            font-size: medium;
+            color: var(--secondary-color);
+            font-family: var(--medium);
+        }
+        .titulo-sesiones {
+            margin-top: 8%;
+            margin-bottom: 8%;
+            .ant-col {
+                h4 {
+                    font-family: var(--extra);
+                    color: var(--primary-color);
+                    text-align: left;
+                }
+            }
+        }
+
+        .stats-numero-sesiones {
+            display: flex;
+            justify-content: space-around;
+        }
+        .stats-numero-sesiones2 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .titulo-valoraciones {
+            margin-top: 7%;
+            margin-bottom: 5%;
+            margin-left: 0%;
+            .ant-col {
+                h4 {
+                    font-family: var(--extra);
+                    color: var(--primary-color);
+                    text-align: left;
+                }
+            }
+        }
+
+        .stats-numero-valoraciones {
+            display: flex;
+            justify-content: space-around;
+            .ant-progress {
+                margin-bottom: 3%;
+            }
+            p {
+                margin-bottom: 0%;
+                text-align: left;
+            }
+        }
+    }
+}

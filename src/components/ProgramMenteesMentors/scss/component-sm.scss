@@ -1,0 +1,14 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+    .ant-input-search-button {
+        background-color: var(--secondary-color);
+        border: none;
+    }
+    .ant-input-search-button:hover {
+        background-color: var(--secondary-hover-color);
+        border: none;
+    }
+}
