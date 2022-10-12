@@ -1,0 +1,24 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    #footer-scheduler {
+           
+        .ant-btn {
+            background-color: $primary-green !important;
+            color: white;
+        }
+        .ant-col {
+               
+                .ant-row {
+                    .ant-col {
+                       
+                    }
+                }
+              
+            }
+        }
+      
+    }

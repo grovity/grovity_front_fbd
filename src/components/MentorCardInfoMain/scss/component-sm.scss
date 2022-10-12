@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #marketplace-info-main {
+    .datos-contacto {
+        h5 {
+            color: var(--primary-text-color);
+            svg {
+                color: var(--primary-color);
+            }
+        }
+    }
+  }
+}

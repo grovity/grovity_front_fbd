@@ -1,0 +1,82 @@
+@import "../styles/colors";
+@import "../styles/App.scss";
+
+#normal_login {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: black !important;
+  }
+}
+
+.login-form-container {
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+
+  .ant-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ant-col {
+      .ant-switch {
+        margin-left: 10%;
+        padding-left: 20%;
+        padding-right: 20%;
+        background-color: $primary;
+
+      }
+
+      h2 {
+        color: $primary;
+        font-family: "ObjectiveBold";
+        text-align: center;
+        position: relative;
+        padding-top: 10%;
+      }
+
+      .sing-in-social-networks {
+        padding-top: 8%;
+        padding-bottom: 8%;
+      }
+
+      p {
+        text-align: center;
+        font-family: "ObjectiveLight";
+        color: #567277;
+        margin-top: 10%;
+      }
+    }
+
+    Form {
+      width: 70%;
+      padding-top: 5%;
+
+      .login-form-forgot {
+        text-align: center;
+        font-family: "ObjectiveLight";
+        color: #567277;
+        font-size: 0.8vw;
+      }
+
+      hr {
+        margin-bottom: 0px;
+      }
+
+      .login-form-button {
+        background-color: $primary-green;
+        border: none;
+        margin-bottom: 5%;
+
+      }
+    }
+
+
+  }
+
+
+}

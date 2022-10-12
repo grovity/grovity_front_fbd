@@ -1,0 +1,48 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+
+  .row-plan-trabajo {
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        font-size: 1.8vw;
+        text-align: start;
+      }
+
+      .ant-divider-vertical {
+        height: 70px; 
+        margin-right: 2%;
+      }
+
+      p {
+        text-align: start;
+        font-size: medium;
+      }
+    }
+  }
+  .description-plan {
+    margin-top: 3%;
+    position: relative;
+        height: 80px;
+        overflow-x: hidden;
+        p {
+            height: 100%;
+            width: 100%;
+            color: var(--primary-text-color);
+      }
+  }
+  .divider-plan-des {
+    height: 100px; 
+    margin-right: 2%;
+  }
+  
+  .modales-plan {
+    .ant-modal-footer {
+      display: none;
+    }
+  }
+}

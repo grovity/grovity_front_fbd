@@ -1,0 +1,11 @@
+@import '../../styles/colors';
+
+.video-grid-header {
+    padding-bottom: 24px;
+    padding-top: 14px;
+    .title {
+      font-size: 1.5rem;
+      font-family: ObjectiveBold;
+      color: $primary;
+    }
+  }
