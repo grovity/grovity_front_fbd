@@ -1,0 +1,82 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    .fondo-not-found {
+        background-image: url('../../../assets/images/errorPages/1.5x/Artboard\ 2@1.5x.png');
+        background-size: cover;
+        height: 100vh;
+
+        .ant-row {
+            display: flex;
+            
+            .ant-col {
+                margin-top: 30%;
+                left: 10%;
+                justify-content: end;
+
+                .ant-btn {
+                    background-color: var(--secondary-color);
+                    font-family: ver(--bold);
+                    color: var(--paper-color);
+                    border: none;
+                    justify-self: end !important;
+                    left: 80%;
+                }
+            }
+        }
+        h1 {
+            font-family: var(--bold);
+            font-size: 13vw;
+            color: var(--paper-color);
+            text-shadow: 0px 15px 17px var(--primary-text-color);
+            text-align: end;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-family: var(--medium);
+            font-size: larger;
+            text-align: end;
+            color: var(--paper-color);
+        }
+
+        hr {
+            border-color: var(--paper-color);
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .fondo-not-found {
+        background-image: url('../../../assets/images/errorPages/1.5x/Artboard\ 2@1.5x.png');
+        background-size: cover;
+        height: 100vh;
+
+        .ant-row {
+            display: flex;
+            
+            .ant-col {
+                margin-top: 17%;
+                left: 10%;
+                justify-content: end;
+
+                .ant-btn {
+                    justify-self: end !important;
+                    left: 84%;
+                }
+            }
+        }
+        h1 {
+            font-size: 13vw;
+            text-align: end;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: larger;
+            text-align: end;
+        }
+    }
+}

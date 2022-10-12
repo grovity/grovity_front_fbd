@@ -1,0 +1,177 @@
+#nombre-empresa-report {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#text-filter-column-email {
+    background-color: white;
+}
+
+#textarea-white {
+    color: #012a33;
+}
+
+.card {
+    justify-content: right;
+}
+
+#content > div.text-center.pt-3 > button.btn.btn-primary {
+    background-color: #95C11F !important;
+    border: 1px solid #95C11F;
+    margin-right: 0.5%;
+}
+
+.mbsc-input-wrap, .mbsc-select-input {
+    margin-top: 0px !important;
+}
+
+#selectcomponent {
+    padding: 0 !important;
+}
+
+#formlogin > div.mbsc-col-md-6.mbsc-col-12.customInput > label > span.mbsc-input-wrap > span.mbsc-input-ic.mbsc-right-ic.mbsc-ic.mbsc-ic-eye.mbsc-input-toggle {
+    color: rgba(255, 255, 255, .6);
+}
+
+.iconshome_institution {
+    text-align: center;
+    margin: auto;
+    width: 212px;
+    height: 200px;
+    padding: 2%;
+}
+
+.cards-home .col {
+    min-width: 100%;
+}
+
+.mentors-list button {
+    width: 100%;
+}
+
+.indicador_solicitud {
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.date_indicador {
+    margin-left: 10%;
+}
+
+#tableUsers tr td {
+    overflow: hidden;
+}
+
+#div_registro {
+    text-align: center;
+}
+
+p.pt-3.olvidaste_contraseña {
+    color: white !important;
+}
+
+@media (min-width: 768px) {
+    .mentors-list button {
+        width: auto;
+    }
+}
+
+#rowsHomeInst {
+    height: 700px;
+    margin-top: 0%
+}
+
+#contentInst {
+    margin-left: 70px !important;
+    height: 100%;
+}
+
+.customeractions2 {
+    background: #95C11F;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.customeractions3 {
+    background: #95C11F;
+    padding: 0.4rem 0 !important;
+    color: white;
+    font-weight: bold;
+    align-self: center !important;
+    width: 50%;
+    margin: auto;
+}
+
+.customeractionsCrear {
+    background: #52ccc4;
+    padding: 0.5rem 0 !important;
+    color: white;
+    font-weight: bold;
+    align-self: center !important;
+    width: 15% !important;
+    height: 10% !important;
+    /* margin: auto; */
+    margin-left: 1% !important;
+    border: 0px;
+}
+
+div .customeractions2:last-child {
+    margin: 0;
+}
+
+.btns_lista_mentoria button {
+    margin-right: 1rem;
+}
+
+.btns_lista_mentoria button:last-child {
+    margin: 0;
+}
+
+.btns_lista_mentoria {
+    text-align: center;
+}
+
+#content2 {
+    width: calc(100% - 60px);
+    background-color: #05495c;
+    align-items: center;
+    min-height: 50%;
+    width: 290px;
+}
+
+.titulosListados3 {
+    color: #94c11f;
+    font-weight: bold;
+    position: relative;
+    -ms-text-size-adjust: auto;
+    text-align: center !important;
+    padding-right: 0%;
+}
+
+#contentHomeUser {
+    margin: auto;
+    margin-left: 10%;
+
+}
+
+
+.menor_tamano {
+    font-size: 12px;
+}
+
+.titulosazul {
+    color: #05495c;
+}
+
+#text-filter-column-nombre_evento, #text-filter-column-nombre_archivo, #text-filter-column-nombre_creador {
+    color: white;
+}
+
+
+.espacioPanels {
+    margin-top: 5px;
+}

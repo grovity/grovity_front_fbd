@@ -1,0 +1,32 @@
+
+.button-back {
+    justify-content: flex-end;
+}
+
+.mentorship-data {
+    text-align: center;
+    margin-left: 15%;
+}
+
+#mentor_img {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #94c11f;
+}
+
+
+.nombrementor2 {
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+#uservolver {
+    width: 100% !important;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 2%;
+    padding: 10px;
+    background: #94c11f;
+    border: 1px solid #94c11f;
+}
+

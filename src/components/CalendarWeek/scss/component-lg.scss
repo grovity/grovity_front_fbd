@@ -1,0 +1,14 @@
+@import "../../styles/colors";
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+  .form-week {
+    .mbsc-form-group-title {
+      color: var(--secondary-color);
+      font-family: var(--medium);
+      font-size: x-large;
+      padding-left: 0;
+    }
+
+  }
+}
