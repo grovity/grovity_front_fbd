@@ -1,0 +1,80 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    #mentor-info-basica {
+        .ant-divider {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .datos-mentor {
+            // display: flex;
+            align-items: center;
+            .dato {
+                p {            
+                    margin-bottom: 0;
+                    font-size: medium;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 5%;
+            .bio {
+                h4 {
+                    font-size: 1.6vw !important;
+                    text-align: left;
+                }
+                p {
+                    font-size: 1.2vw !important;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+}
+// Extra-Large devices (desktops, 1280px and up)
+@media (min-width: 1366px) {
+    #mentor-info-basica {
+        .ant-divider {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .datos-mentor {
+            // display: flex;
+            align-items: center;
+            .dato {
+                p {          
+                    margin-bottom: 0;
+                    font-size: medium;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 3%;
+            .bio {
+                h4 {
+                    font-size: 1.4vw !important;
+                    text-align: left;
+                }
+                p {
+                    font-size: 1vw !important;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+}

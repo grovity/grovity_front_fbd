@@ -1,0 +1,130 @@
+@import '../../styles/colors';
+
+// @media (min-width: 768px) {
+@media (min-width: 48em) {
+    #como-funciona-home-container {
+        background-color: none;
+
+        .founders-titulo {
+            margin-top: 0%;
+            margin-bottom: 2%;
+
+            h1 {
+                color: $primary-green;
+                font-size: 1000%;
+            }
+
+            h2 {
+                color: #242728;
+                align-self: center;
+            }
+        }
+        .cols-como-home {
+            justify-content: center;
+
+            img {
+                width: 230px;
+                margin-bottom: 15%;
+            }
+            h1 {
+                color: $primary-green;
+                font-size: 1000%;
+            }
+            h3 {
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+        .cols-como-home-blanco {
+            justify-content: center;
+
+            img {
+                width: 230px;
+                margin-bottom: 15%;
+            }
+            h1 {
+                color: $primary-green;
+                font-size: 1000%;
+            }
+            h3 {
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+    }
+}
+
+@media (min-width: 48.0625em) {
+    #como-funciona-home-container {
+        background-color: none;
+
+        .founders-titulo {
+            margin-top: -13%;
+            margin-bottom: 0%;
+
+            h1 {
+                color: $primary-green;
+                font-size: 1000%;
+            }
+
+            h2 {
+                color: #242728;
+                align-self: center;
+                font-size: 170%;
+            }
+        }
+        .cols-como-home {
+            justify-content: center;
+
+            img {
+                width: 220px;
+                margin-bottom: 0%;
+            }
+            h1 {
+                color: $primary-green;
+                font-size: 1000%;
+            }
+            h3 {
+                color: #242728;
+                font-size: 120%;
+            }
+            p {
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 90%;
+            }       
+        }
+        .cols-como-home-blanco {
+            justify-content: center;
+
+            img {
+                width: 220px;
+                margin-bottom: 0%;
+            }
+            h1 {
+                color: $primary-green;
+                font-size: 1000%;
+            }
+            h3 {
+                color:white;
+                font-size: 120%;
+            }
+            p {
+                color: white;
+                margin-bottom: 10%;
+                font-size: 90%;
+                background-color: rgba(0, 0, 0, 0.2);
+            }       
+        }
+    }
+}

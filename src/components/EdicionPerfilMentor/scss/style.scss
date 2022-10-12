@@ -1,0 +1,24 @@
+.check-box-container{
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: space-between;
+    
+    padding: 0;
+ 
+    
+  }
+
+
+
+  .checkbox-2 *{
+margin-left: -4px;
+
+  }
+  .checkbox-2 span{
+    padding-right: 5px;
+  }
+  .google-image{
+    margin: 0;
+    padding: 0;
+  }

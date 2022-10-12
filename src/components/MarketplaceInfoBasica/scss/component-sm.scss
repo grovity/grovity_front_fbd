@@ -1,0 +1,54 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #mentor-info-basica {
+        .ant-divider {
+            border-color: var(--tertiary-text-color);
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .datos-mentor {
+            align-items: center;
+            .dato {
+                p {
+                    color: var(--tertiary-text-color);            
+                    font-family: var(--light-font);
+                    margin-bottom: 0;
+                    font-size: small;
+                    text-align: left;
+                }
+                .ant-divider-vertical {
+                    margin-top: 0;
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .bio-mentor {
+            margin-top: 5%;
+            .bio {
+                h4 {
+                    color: var(--secondary-color);
+                    font-family: var(--medium);
+                    font-size: 2.9vw;
+                    text-align: left;
+                }
+                p {
+                    color: var(--primary-text-color);
+                    font-family: var(--light-font);
+                    font-size: 2.6vw;
+                    text-align: left;
+                }
+            }
+        }
+        .tags-mentor {
+            margin-top: 3%;
+            .tags {
+                .ant-tag {
+                    margin-bottom: 2%;
+                }
+            }
+        }
+    }
+}

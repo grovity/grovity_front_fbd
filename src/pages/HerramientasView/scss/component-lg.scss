@@ -1,0 +1,44 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 922px) {
+  #herramientas-view {
+    .ant-layout-header {
+      padding-left: 0%;
+      padding-right: 0%;
+      margin-bottom: 2%;
+
+      h3 {
+        text-align: left;
+        color: var(--secondary-color);
+        font-family: var(--bold);
+      }
+
+      
+      .btns-header {
+        padding-right: 0% !important;
+    }     
+
+      .header-marketplace {
+        border-color: var(--tertiary-text-color);
+        z-index: 100;
+        margin-top: 0px;
+        margin-bottom: 10px;
+      }
+
+    }
+
+    .row-plan-trabajo {
+        margin-top: 5%;
+
+        h5 {
+            color: var(--secondary-color);
+            font-family: var(--bold);
+        }
+    }
+
+    .row-cards-actividades {
+      justify-content: space-between;
+    }
+    }
+  }
