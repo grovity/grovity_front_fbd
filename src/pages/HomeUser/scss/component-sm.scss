@@ -1,0 +1,31 @@
+@import '../../../components/styles/colors';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #home-user {
+    .eventos-hoy {
+    text-align: center;
+
+      h1 {
+        font-family: var(--bold);
+        color: var(--secondary-color);
+        margin-top: 8%;
+        font-size: 150%;
+
+      }
+    }
+
+    .eventos-hoy-no {
+      margin-left: 0%;
+      margin-bottom: 3%;
+      display: flex;
+      justify-content: center;
+      background-color: var(--paper-color);  
+    }
+
+    .conecta-mentor {
+      text-align: left;
+      margin-top: 0%;
+  }
+  }
+}

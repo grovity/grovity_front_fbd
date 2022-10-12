@@ -1,0 +1,43 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 768px) {
+    #program-emprendedor {
+        .ant-layout-header {
+          padding-left: 0%;
+          padding-right: 0%;
+          margin-bottom: 3%;
+    
+          h3 {
+            text-align: left;
+            color: var(--secondary-color);
+          }
+    
+          
+          .btns-header {
+            padding-right: 0% !important;
+        }     
+    
+          .header-marketplace {
+            z-index: 100;
+            margin-top: 0px;
+            margin-bottom: 10px;
+          }
+    
+        }
+    
+        .row-plan-trabajo {
+            margin-top: 5%;
+        }
+
+        .row-cards-actividades {
+          justify-content: space-between;
+        }
+
+        .no-plan {
+          padding-top: 3%;
+          padding-bottom: 3%;
+        }
+    
+    }
+}

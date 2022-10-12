@@ -1,0 +1,15 @@
+.datecomponent {
+    margin-left: -3%;
+    color: white !important;
+    display: inline-block;
+    height: 80px;
+}
+
+.dateInput {
+    color: white !important;
+}
+
+.labeldate {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
