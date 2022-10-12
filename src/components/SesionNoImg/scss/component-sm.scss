@@ -1,0 +1,49 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+    .fondo-something-wrong {
+        background-image: url('../../../assets/images/errorPages/1.5x/Artboard\ 3@1.5x.png');
+        background-size: cover;
+        height: 100vh;
+
+        .ant-row {
+            display: flex;
+            
+            .ant-col {
+                margin-top: 70%;
+                left: 10%;
+                justify-content: end;
+
+                .ant-btn {
+                    background-color: $primary;
+                    font-family: ObjectiveBold;
+                    color: white;
+                    border: none;
+                    justify-self: end !important;
+                    left: 55%;
+                }
+            }
+        }
+        h1 {
+            font-family: ObjectiveBold;
+            font-size: 10vw;
+            color: white;
+            text-shadow: 0px 15px 17px #282323;
+            text-align: end;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-family: ObjectiveMedium;
+            font-size: medium;
+            text-align: end;
+            color: white;
+        }
+
+        hr {
+            border-color: white;
+        }
+    }
+}

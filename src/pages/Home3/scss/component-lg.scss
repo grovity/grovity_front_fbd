@@ -1,0 +1,145 @@
+@import '../../../components/styles/colors';
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+    #fondo-fondo {
+        background-color: white;
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;
+
+            .img-1 {
+                width: 100%;
+            }
+        }
+        .container-banner {
+            margin-top: -57%;
+            }
+        .container-why {
+            margin-top: 15%;
+        }
+        .container-founders {
+            margin-top: -198%;
+            
+        }
+        .container-como {
+            margin-top: 0%;
+        }
+        .container-clients {
+            margin-top: 4%;
+        }
+        .container-testimonials {
+            margin-top: -80%;
+        }
+        #fondo-fondo-azul {
+            width: 100%;
+            background-color: $primary;
+            .container-call {
+                margin-top: -38%;
+            }
+        }
+    }
+ 
+}
+// @media (min-width: 1024px) {
+@media (min-width: 64em) {
+  #fondo-fondo {
+      background-color: white;
+      .container-banner {
+        margin-top: -27%;
+        }
+        .container-why {
+            margin-top: 15%;
+        }
+      .container-back-imgs {
+          width: 100%;
+          background-color: white;
+      }
+      .container-founders {
+        margin-top: -190%;
+      }
+      .container-como {
+        margin-top: -5%;
+    }
+  }
+}
+
+// @media (min-width: 1200px) {
+@media (min-width: 75em) {
+    #fondo-fondo {
+        background-color: white;
+
+        .container-banner {
+            margin-top: -60%;
+        }
+        .container-why {
+            margin-top: 15%;
+        }
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;        
+        }
+        .container-founders {
+            margin-top: -183%;
+        }
+        .container-como {
+            margin-top: 0%;
+        }
+        .container-clients {
+            margin-top: 8%;
+        }
+    }  
+}
+// @media (min-width: 1400px) {
+@media (min-width: 87.5em) {
+    #fondo-fondo {
+        background-color: white;
+
+        .container-banner {
+            margin-top: -55%;
+        }
+        .container-why {
+            margin-top: 15%;
+        }
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;        
+        }
+        .container-founders {
+            margin-top: -183%;
+        }
+        .container-como {
+            margin-top: 0%;
+        }
+        .container-clients {
+            margin-top: 6%;
+        }
+    }  
+}
+// @media (min-width: 1650px) {
+@media (min-width: 103.125em) {
+    #fondo-fondo {
+        background-color: white;
+
+        .container-banner {
+            margin-top: -55%;
+        }
+        .container-why {
+            margin-top: 20%;
+        }
+  
+        .container-back-imgs {
+            width: 100%;
+            background-color: white;        
+        }
+        .container-founders {
+            margin-top: -183%;
+        }
+        .container-como {
+            margin-top: 8%;
+        }
+    }  
+}

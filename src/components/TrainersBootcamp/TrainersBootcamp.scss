@@ -1,0 +1,83 @@
+@import "../../components/styles/App.scss";
+
+.bootcamp-trainers {
+    background: #ededed;
+    // color: $primary;
+    // font-family: ObjectiveMedium;
+  
+    .containerBootcampTrainers {
+      width: 90%;
+    }
+    .ant-col {
+      background-color: #012a33;
+      padding: 2%;
+      //justify-content: center;
+      .ant-row.title {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          margin-top: 1.5%;
+          //margin-bottom: 2%;
+  
+          h2 {
+              color: #8dbb1f;
+              padding-bottom: 1%;
+              font-family: "ObjectiveMedium";
+              font-size: 2.8vw;
+          }
+          hr {
+              position: absolute;
+              z-index: 1;
+              border-width: 1px;
+              border-color: #8dbb1f;
+              width: 35%;
+              margin-top: 5%;
+          }
+      }
+
+      .trainer-item {
+        //padding: 3%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+
+        .card {
+            background-color: transparent;
+            border-width: 0px;
+          #img-1 {
+            margin: auto;
+            //margin-top: 8%;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            box-shadow: -5px -5px #00495d, 5px 5px #8dbb1f;
+          }
+    
+          .card-body {
+            text-align: center;
+          }
+        }
+    
+        .nombre {
+            font-family: "ObjectiveRegular";
+            color: white;
+            margin-bottom: 0%;
+            margin-top: 3%;
+            font-size: 1.5vw;
+        }
+        .apellidos {
+            font-family: "ObjectiveRegular";
+            color: #8dbb1f;
+            margin-bottom: 7%;
+            font-size: 1.8vw;
+        }
+    
+        .subtitulos {
+          font-family: "ObjectiveLightItalic";
+          font-size: 1vw;
+          // color: #567277;
+          color: white;
+        }
+      }
+}
+}
