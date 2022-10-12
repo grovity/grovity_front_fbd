@@ -1,0 +1,13 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 922px) {
+    #calendar-event-info {
+        .btn-calificar-sesion {
+            font-family: var(--medium);
+            border: solid $primary-green;
+            border-width: 1px;
+            color: gray;
+        }
+    }
+}
