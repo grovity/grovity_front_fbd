@@ -1,0 +1,91 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 768px) {
+  #home-user-mentor {
+    .eventos-hoy {
+      margin-left: 0%;
+      text-align: left;
+
+      h1 {
+        font-size: 210%;
+        margin-top: 3%;
+
+      }   
+    }
+    .eventos-hoy-no {
+      margin-left: 4%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .mis-programas {
+        margin-top: 3%;
+        h2 {
+            font-size: 3vw;
+        } 
+    }
+    .conecta-mentor {
+      text-align: left;
+      justify-content: center;
+      margin-top: 5%;
+    }
+  }
+}
+.btn-s {
+  background-color: $primary-green !important;
+  color: white !important;
+  font-family: ObjectiveMedium;
+  border: none;
+}
+.btn-s:hover {
+  background-color: $primary-green !important;
+  color: white !important;
+  font-family: ObjectiveMedium;
+  border: none;
+}
+
+.invoice{
+
+
+  margin: 2.5% 0 0 0; 
+  padding: 2.5;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.invoice:hover{
+  border: 1px solid #000;
+}
+
+.invoice-select{
+
+margin: 0 auto;
+padding: 2.5;
+margin-left: -1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.center-icon{
+display: grid;
+place-content: center;
+height: 100vh;
+}
+
+.pagi{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly ;
+  align-items: center;
+}
