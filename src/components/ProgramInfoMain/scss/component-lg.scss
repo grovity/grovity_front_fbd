@@ -1,0 +1,39 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+  #program-info-main {
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 1.8vw;
+        text-align: start;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--reg);
+        text-align: start;
+        font-size: medium;
+      }
+
+      .info-program {
+          color: var(--secondary-text-color);
+      }
+    }
+    .datos-emprendedor {
+      background-color:#dddddd;
+      .ant-card-body {
+        padding-bottom: 1%;
+      }
+      p {
+        margin-bottom: 1%;
+      }
+    }
+  }
+}

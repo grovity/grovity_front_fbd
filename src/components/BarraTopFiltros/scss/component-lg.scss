@@ -1,0 +1,25 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 922px) {
+    #barra-top-filtros {
+        margin-left: 0% !important;
+        .ant-row {
+            margin-left: 0% !important;
+            .resultados {
+                p {
+                    text-align: left;
+                    color: var(--primary-text-color);
+                    font-family: var(--medium);
+                }
+            }
+            .order {
+                p {
+                    color: var(--primary-text-color);
+                    font-family: var(--medium);
+                    text-align: right;
+                }                
+            }
+        }
+    }
+}

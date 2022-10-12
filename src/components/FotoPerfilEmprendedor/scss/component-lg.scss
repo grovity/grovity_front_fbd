@@ -1,0 +1,36 @@
+//@import "../../components/styles/App.scss";
+@import '../../styles/colors';
+
+#perfil-detalle-usuario {
+  background-color: transparent;
+  padding: 3%;
+
+  .ant-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .avatar {
+    position: relative;
+    margin: auto;
+    background-color: var(--secondary-color);
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  p {
+    font-family: var(--light-font);
+    color: var(--secondary-color);
+    font-size: 0.9vw;
+  }
+
+  .ant-progress {
+    padding-bottom: 1%;
+  }
+}
+
+

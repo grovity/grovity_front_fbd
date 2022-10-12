@@ -1,0 +1,42 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #edicion-perfil-entidad{
+        h4 {
+            color: $primary;
+            margin-bottom: 3%;
+        }
+
+        .avatar {
+            position: relative;
+            background-color: $background-dark-light;
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            border-radius: 50%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+      
+            &:hover {
+              cursor: pointer;
+            }
+      
+            svg {
+              width: 30px;
+              margin-top: 40%;
+              margin-left: 40%;
+              fill: white;
+              &:hover {
+                fill:$font-dark
+              }
+            }
+          }
+
+        .divider-sections {
+            border-color: $primary-green;
+        }
+    }
+}
