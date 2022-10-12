@@ -1,0 +1,110 @@
+@import "../../components/styles/App.scss";
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+#card-programs {
+  background-color: transparent !important;
+  border: none;
+  
+  .ant-card {
+    border-left: 10px solid var(--color-alternativo);
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(4, 5, 5, 0.6);
+    margin-top: 3%;
+    transition: transform 1s;
+    width: 100%;
+    overflow: hidden;
+    text-align: start;
+
+    #col-programs {
+      h5 {
+        color: var(--secondary-color);
+        font-family: var(--bold);
+        font-size: large;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      h5:hover {
+        color: var(--secondary-hover-color);
+        font-family: var(--bold);
+        font-size: large;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .parrafo-bold {
+        color: var(--primary-text-color);
+        font-family: var(--bold);
+        margin-bottom: 0;
+      }
+
+      p {
+        color: var(--tertiary-text-color);
+        font-family: var(--light-font);
+        margin-bottom: 0;
+        font-size: medium;
+      }
+
+      a {
+        font-family: var(--reg-italic);
+        color: var(--primary-color);
+      }
+    }
+  }
+
+  .ant-card:hover {
+    transform: scale(1.02);
+  }
+}
+}
+
+@media (min-width: 1200px) {
+
+#card-programs {
+  background-color: transparent !important;
+  border: none;
+
+  .ant-card {
+    border-radius: 10px;
+    margin-top: 3%;
+    transition: transform 1s;
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    text-align: start;
+
+    #col-image {
+      padding-right: 0px !important;
+      padding: 0;
+      max-height: 195px;
+      img {
+        object-fit: contain;
+      }
+    }
+
+    #col-programs {     
+      .parrafo-bold {
+        font-family: var(--medium);
+        margin-bottom: 0;
+      }
+
+      p {
+        font-family: var(--light-font);
+        margin-bottom: 0;
+        font-size: medium;
+      }
+
+      a {
+        font-family: var(--reg-italic);
+      }
+    }
+  }
+  .ant-card:hover {
+    transform: scale(1.02);
+  }
+}
+}

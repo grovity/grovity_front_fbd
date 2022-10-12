@@ -1,0 +1,30 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+    #card-plan-emprendedor {
+        .info-actividad {
+            h5 {
+                color: #242728;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+
+            p {
+                margin-bottom: 1%;
+            }
+        }
+
+        .ant-divider {
+            margin-top: 2%;
+        }
+
+        .btns-actividad {
+            background-color: $primary;
+            color: white;
+        }
+    }
+}

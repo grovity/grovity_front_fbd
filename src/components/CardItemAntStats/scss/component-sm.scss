@@ -1,0 +1,27 @@
+@import "../../styles/App.scss";
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+
+#card-stats {
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+  .ant-col {
+    margin-bottom: 3%;
+  }
+
+  .ant-card {
+    border-left: 10px solid var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(4, 5, 5, 0.8);
+
+    .ant-card-body {
+      padding: 0;
+    }
+
+    width: 100%;
+  }
+}
+}

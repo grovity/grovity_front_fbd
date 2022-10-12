@@ -1,0 +1,35 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    #card-empresa-perfil {
+        margin-top: 0%;
+
+        .logo-nombre {
+            align-items: flex-end;
+            margin-bottom: 3%;
+            .ant-col {
+                h4 {
+                    color: var(--secondary-color);
+                    font-family: var(--bold);
+                    font-size: x-large;
+                }
+                p {
+                    color: var(--primary-text-color);
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .meta {
+            margin-top: 3%;
+            h5 {
+                color: var(--primary-text-color);
+                font-family: var(--bold);
+                font-size: medium;
+            }
+        }
+    }
+}

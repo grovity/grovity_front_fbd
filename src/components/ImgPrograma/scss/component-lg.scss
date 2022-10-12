@@ -1,0 +1,26 @@
+@import '../../styles/colors';
+
+
+@media (min-width: 922px) {
+#programa-detalle {
+  background-color: transparent;
+  padding: 3%;
+  margin-top: 0%;
+
+  .ant-row {
+    display: flex;
+    justify-content: center;
+  }
+
+  .avatar {
+    position: relative;
+    margin: 0px;
+    background-color: var(--secondary-color);
+    width: 180px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+}
