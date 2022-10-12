@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+  #perfil-detalle-entidad {
+    h5 {
+        text-align: left;
+        margin-top: 10%;
+    }
+    p {
+        text-align: left;
+        font-size: 1.9vw;
+        margin-bottom: 1%;
+    }
+  }
+}

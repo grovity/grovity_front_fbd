@@ -1,0 +1,19 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 922px) {
+  #mentores-entidad {
+    .content-empren-men-enti {
+      margin-top: 7%;
+    }
+
+    }
+  }
+@media (min-width: 1200px) {
+  #mentores-entidad {
+    .content-empren-men-enti {
+      margin-top: 0%;
+    }
+
+    }
+  }
