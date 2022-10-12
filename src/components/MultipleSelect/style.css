@@ -1,0 +1,14 @@
+#selectcomponent {
+    padding-top: 2%;
+}
+
+#formedit label {
+    display: block;
+    margin: 1rem 0;
+}
+
+#selectcomponent *::placeholder {
+    color: black !important;
+}
+
+

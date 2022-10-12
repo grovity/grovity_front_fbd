@@ -1,0 +1,61 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #mentor-info-main {
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 4vw;
+      }
+      h4 {
+        color: var(--primary-text-color);
+        font-family: var(--medium);
+        font-size: 2.9vw;
+        text-align: start;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--light-font);
+        font-size: small;
+        text-align: start;
+      }
+
+      .datos-contacto {
+        text-align: start;
+        margin-right: 5%;
+        h5 {
+          color: var(--primary-text-color);
+          font-family: var(--bold);
+        }
+      }
+      .ant-col {
+        justify-content: start;
+
+        
+
+        .btn-accion {
+          border-width: none;
+          margin-right: 10%;
+        }
+
+        .button-ant-editar {
+          font-family: ObjectiveMedium;
+          padding: 4%;
+          margin-bottom: 5%;
+        }
+
+      }
+      .btn-editar {
+        display: block;
+        justify-content: flex-end;
+    }
+    }
+  }
+
+}

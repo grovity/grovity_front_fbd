@@ -1,0 +1,21 @@
+@import "../../components/styles/App.scss";
+
+.descripcion-bootcamp {
+  background: white;
+  color: $primary;
+  font-family: ObjectiveMedium;
+  display: flex;
+  justify-content: center;
+
+  .ant-col {
+    padding: 4%;
+
+    p {
+      font-family: "ObjectiveBold";
+      color: #00495d;
+      font-size: 200%;
+      text-align: center;
+      text-justify: inter-word;
+    }
+  }
+}

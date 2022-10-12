@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #tabla-indicadores {
+    .ant-btn {
+      justify-self: start;
+      background-color: var(--primary-color);
+      border: none;
+      font-family: var(--medium);
+    }
+  }
+}
