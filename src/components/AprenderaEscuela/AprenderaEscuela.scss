@@ -1,0 +1,47 @@
+@import "../../components/styles/App.scss";
+
+.aprendera-escuela {
+  background: #686866;
+  // color: $primary;
+  // font-family: ObjectiveMedium;
+
+  .containerAprendera {
+    width: 90%;
+  }
+  .ant-col {
+    background-color: #686866;
+    padding: 2%;
+    //justify-content: center;
+    .ant-row.title {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 1.5%;
+        margin-bottom: 2%;
+
+        h2 {
+            color: #05ddd7;
+            padding-bottom: 2%;
+            font-family: "ObjectiveMedium";
+        }
+        hr {
+            position: absolute;
+            border-width: 1px;
+            border-color: #05ddd7;
+            width: 35%;
+            margin-top: 4%;
+        }
+    }
+
+    p {
+      margin-left: 14%;
+      font-size: 1.2vw;
+      font-family: "ObjectiveLight";
+      color: white;
+      text-align: left;
+      text-justify: inter-word;
+      padding-top: 0%;
+      padding-right: 7%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+#content3 {
+    margin-left: 10% !important;
+    overflow-x: auto;
+    text-align: center !important;
+}
+
+#tableUsers {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#tableUsers thead {
+    background-color: var(--secondary-color) !important;
+    color: white;
+}
+
+#tableUsers a {
+    color: var(--secondary-color);
+}
+
+#tableUsers tr:nth-child(2n+1) {
+    background-color: rgba(0,0,0, .03);
+}
+
