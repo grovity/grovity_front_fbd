@@ -1,0 +1,68 @@
+@import "../styles/colors";
+@import "../styles/App.scss";
+
+
+.fondo-login {
+    background-image: url('../../assets/images/login_singUp/1.5x/Artboard\ 1@1.5x.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+    .back-arrow {
+        display: block;
+        margin-left: 5%;
+        margin-top: 1%;
+        .anticon-arrow-left {
+            color: white;
+            font-size: 2vw;
+        }
+    }
+
+    .main-row {
+        display: flex;
+        justify-content: center;
+        .loginContainer {
+            width: 60%;
+            height: 700px;
+            // padding: 0% !important;
+            // border-radius: 15px;
+            // box-shadow: 7px 7px 10px #071013;
+
+            .secondary-row{
+                display: flex;
+                .login-pic {
+                    background-image: url('../../assets/images/login_singUp/1.5x/Artboard\ 10@1.5x.png');
+                    background-size: cover;
+                    width: 50%;
+                    height: 700px;
+                    border-radius: 15px 0px 0px 15px;
+                    box-shadow: 3px 0px 7px #043744;
+                    z-index: 1;
+
+                    .logo-login {
+                        width: 60%;
+                    }
+
+                    h2 {
+                        position: absolute;
+                        font-family: "ObjectiveMedium";
+                        font-size: 2.5vw;
+                        top: 80%;
+                        left: 8%;
+                    }
+                }
+                .login-form-col {
+                    background-color: white;
+                     width: 50%;
+                    //height: 700px;
+                    padding: 0% !important;
+                    border-radius: 0px 15px 15px 0px;
+                    box-shadow: 7px 7px 10px #071013;
+
+                }
+            }
+            
+        }
+           
+    }
+}

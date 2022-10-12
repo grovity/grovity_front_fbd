@@ -1,0 +1,59 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+    #card-actividad {
+        margin-left: 1.2%;
+        margin-right: 1.2%;
+
+        .description-activity {
+            position: relative;
+            height: 90px;
+            overflow-x: hidden;
+            p {
+                color: var(--secondary-text-color);
+                height: 100%;
+                width: 100%;
+            }
+        }
+        .info-actividad {
+            h5 {
+                color: var(--primary-text-color);
+            }
+            p {
+                color: var(--secondary-text-color);
+            }
+        }
+        .fechas-actividad {
+            p {
+                color: var(--secondary-text-color);
+                margin-bottom: 1%;
+            }
+            .ant-divider {
+                height: 50px;
+            }
+        }
+
+        .incompleta {
+            .ant-checkbox {
+                .ant-checkbox-inner {
+                    border-color: red;
+                }
+            }
+            span {
+                font-family: var(--reg);
+            }
+        }
+
+        .completada {
+            .ant-checkbox {
+                .ant-checkbox-inner {
+                    background-color: $primary-green !important;
+                    border-color: $primary-green !important;
+                }
+            }
+        }
+    }
+}

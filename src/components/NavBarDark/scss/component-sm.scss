@@ -1,0 +1,251 @@
+@import "../../styles/colors";
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 0px) {
+
+.header-dark {
+  position: fixed;
+  z-index: 1000;
+  height: 64px;
+  padding: 0;
+  width: 100%;
+  background: transparent;
+
+  &.show-shadow {
+    background: #FDFDFD;
+    box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+  }
+
+  .logo-in {
+    display: inline-block;
+    height: 100%;
+    line-height: 64px;
+
+    .logo {
+      background: url('/static/imgs/nuevo_home/large/bitmap.png') no-repeat center;
+      display: inline-block;
+      width: 70px;
+      height: 75px;
+      margin-top: 35px;
+      margin-left: 40px;
+    }
+
+    span {
+      display: none;
+    }
+
+    #lineBlue {
+      border-left: 1px solid $primary;
+      padding-left: 10px;
+      height: 25px;
+      margin-right: 0;
+      margin-top: 60px;
+    }
+  }
+
+  .logo {
+    background: url('/static/imgs/nuevo_home/large/bitmap.png') no-repeat center;
+    display: inline-block;
+    width: 70px;
+    height: 75px;
+    margin-top: 35px;
+    margin-left: 40px;
+
+    &-wrapper {
+      display: inline-block;
+      height: 100%;
+      line-height: 64px;
+
+      span {
+        line-height: 64px;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+        white-space: nowrap;
+        color: $primary;
+        display: none;
+        vertical-align: top;
+        padding-left: 10px;
+      }
+
+      #lineBlue {
+        border-left: 1px solid $primary;
+        padding-left: 10px;
+        height: 25px;
+        margin-right: 0;
+        margin-top: 60px;
+      }
+    }
+  }
+
+  .login-wraper {
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    height: 30px;
+    width: 90px;
+    right: 90px;
+    top: 30px;
+    font-size: 20px;
+
+    span {
+      color: $primary;
+    }
+
+    #lineWhite {
+      border-left: 1px solid $primary;
+      padding-left: 15px;
+      height: 25px;
+      margin-right: 0;
+      margin-left: 15px;
+      margin-top: 60px;
+    }
+
+    .logout {
+        margin-top: 0%;
+        margin-right: 50%;
+
+      .avatar-mini {
+        position: absolute;
+        top: 7%;
+        left: 100%;
+        right: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  #menu {
+    float: right;
+
+  }
+
+  #menu-in {
+    float: right;
+    .bm-burger-button {
+        margin-top: 9%;
+      }
+  }
+}
+
+.header-dark-scroll {
+  position: fixed;
+  z-index: 1000;
+  height: 120px;
+  padding: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+
+  &.show-shadow {
+    background: #FDFDFD;
+    box-shadow: 0 2px 8px rgba(229, 229, 229, 0.5);
+  }
+
+  .logo {
+    background: url('../../../assets/images/bitmap.png') no-repeat center;
+    display: inline-block;
+    width: 70px;
+    height: 75px;
+    margin-top: 35px;
+    margin-left: 40px;
+
+    &-wrapper {
+      display: inline-block;
+      height: 100%;
+      line-height: 64px;
+
+      span {
+        line-height: 64px;
+        font-size: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 40px;
+        white-space: nowrap;
+        color: $primary;
+        display: none;
+        vertical-align: top;
+        padding-left: 10px;
+      }
+
+      #lineBlue {
+        border-left: 1px solid $primary;
+        padding-left: 10px;
+        height: 25px;
+        margin-right: 0;
+        margin-top: 60px;
+      }
+    }
+  }
+
+  .login-wraper {
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    height: 30px;
+    width: 90px;
+    right: 180px;
+    top: 65px;
+    font-size: 20px;
+
+    span {
+      color: $primary;
+    }
+
+    #lineWhite {
+      border-left: 1px solid $primary;
+      padding-left: 15px;
+      height: 25px;
+      margin-right: 0;
+      margin-left: 15px;
+      margin-top: 60px;
+    }
+
+    .logout {
+        top: 0%;
+        margin-top: 0%;
+        margin-right: 10%;
+  
+        .avatar-mini {
+          position: absolute;
+          top: 0;
+          left: 60%;
+          right: 0;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+  
+        }
+      }
+  }
+
+  #menu {
+    float: right;
+  }
+
+  #menu-in {
+    float: right;
+    background-color: hotpink;
+    .bm-burger-button {
+      margin-top: -20%;
+    }
+  }
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 18px;
+    height: 15px;
+    top: 0px;
+    margin-right: -30px
+  }
+}
+

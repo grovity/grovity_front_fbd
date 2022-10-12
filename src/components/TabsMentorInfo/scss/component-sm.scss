@@ -1,0 +1,61 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #tabs-mentor-info {
+        .ant-tabs {
+            .ant-tabs-ink-bar {
+                background: var(--primary-color);
+            }
+            .ant-tabs-nav::before {
+                border-color: #cccccc;
+            }
+
+            .ant-tabs-nav-wrap {
+
+                .ant-tabs-nav-list {
+
+                    .ant-tabs-tab{
+                        color: var(--secondary-color);
+                        font-family: var(--reg);
+                    }
+                    
+                    .ant-tabs-tab-active {
+                        .ant-tabs-tab-btn {
+                            color: var(--secondary-color);
+                            font-family: var(--bold);
+                        }
+                        
+                    }
+                }
+            }
+
+            .ant-card {
+                .ant-row {
+                    align-items: center;
+                    .ant-col {
+                        .ant-card-meta-avatar {
+                            margin-left: 15%;
+                        }
+                        .ant-card-meta-title {
+                            text-align: left;
+                            font-family: var(--medium);
+                            color: var(--primary-text-color);
+                        }
+                        .ant-card-meta-description {
+                            text-align: left;
+                            font-family: var(--reg);
+                            color: var(--secondary-text-color);
+                        }
+                        .name-empresa-educacion {
+                            .ant-card-meta-title {
+                                color: var(--primary-color);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

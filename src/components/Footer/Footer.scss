@@ -1,0 +1,57 @@
+@import "../styles/colors";
+@import "../styles/App.scss";
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+.sectionFooter {
+    background-color: $primary;
+
+    .row-texto-footer {
+        margin-top: 10%;
+    }
+
+    .cols-footer {
+        h5 {
+            color: #b2dde7;
+            font-family: ObjectiveMedium;
+            text-align: center;
+            font-size: 120%;
+        }
+
+        p {
+            color: #7fb5be;
+            font-family: ObjectiveRegular;
+            text-align: center; 
+            font-size: 100%;
+        }
+
+        img {
+            width: 60%;
+            padding-left: 3%;
+        }
+    }
+
+    .logo-footer {
+        img {
+            width: 100%;
+        }
+    }
+
+    .copyRight {
+        background-color: #012a33;
+        height: 50px;
+        align-items: center;
+        .ant-col {
+            h6 {
+                font-family: "ObjectiveRegular";
+                color: white;
+                padding-top: 1%;
+                font-size: 0.7vw;
+                img {
+                    width: 1.8%;
+                }
+            }
+        }
+    }
+}
+}

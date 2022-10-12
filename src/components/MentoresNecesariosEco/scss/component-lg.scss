@@ -1,0 +1,32 @@
+@import '../../styles/colors';
+
+// @media (min-width: 922px) {
+@media (min-width: 57.625em) {
+    #mentores-necesarios-eco {
+        padding-bottom: 7%;
+        padding-top: 3%;
+        h2 {
+            text-align: center;
+            font-family: ObjectiveBold;
+            color: $primary;
+            margin-bottom: 7%;
+            font-size: 170%;
+        }
+        .cols-why-grovity {
+            justify-content: center;
+            
+            p {
+                font-family: ObjectiveLight;
+                color: #242728;
+                margin-bottom: 10%;
+                font-size: 100%;
+            }
+            .icons-why-grovity {
+                color: #242728;
+                margin-top: 10%;
+                // margin-left: 45%;
+                margin-bottom: 5%;
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #edicion-perfil-empresa{
+        h4 {
+            color: var(--secondary-color);
+            margin-bottom: 3%;
+        }
+
+        .divider-sections {
+            border-color: var(--primary-color);
+        }
+    }
+}
