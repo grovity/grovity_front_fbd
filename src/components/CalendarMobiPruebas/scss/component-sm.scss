@@ -1,0 +1,67 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 0px) {
+    .calendar-week-events {
+        display: inline;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        .cal-header {
+            .prev{
+                color: var(--primary-text-color);
+            }
+            .next{
+                color: var(--primary-text-color);
+            }
+            h5 {
+                color: var(--primary-text-color);
+                text-align: left;
+            }
+        }
+
+        .calendar-week {
+            margin-bottom: 2%;
+            margin-top: 2%;
+            justify-content: space-around;
+            text-align: left;
+            h5 {
+                color: var(--primary-text-color);
+            }
+        }
+        .calendar-day {
+            display: inline;
+            color:  var(--primary-text-color);
+            font-family: var(--medium);
+            justify-content: center;
+            text-align: left;
+            cursor: pointer;
+
+            .selected {
+                border-radius: 2px;
+                color: var(--paper-color);
+                background-color: var(--primary-color);
+                font-family: var(--bold);
+                width: 70%;
+                height: 100%;
+                padding-left: 10%;
+                padding-top: 7%;
+            }
+            .today {
+                border-radius: 2px;
+                background-color: var(--paper-color);
+                color: var(--secondary-color);
+                width: 70%;
+                height: 100%;
+                padding-left: 10%;
+                padding-top: 7%;
+            }
+            .else {
+                border-radius: 2px;
+                width: 70%;
+                height: 100%;
+                padding-left: 10%;
+                padding-top: 7%;
+            }
+        }
+    }
+}

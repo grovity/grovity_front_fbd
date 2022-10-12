@@ -1,0 +1,19 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #sider-schedule {        
+        .ant-card-body {
+            .ant-btn {
+                margin-top: 5%;      
+            }
+            .ant-btn-link {
+                background-color: transparent;
+                margin-top: 2%;
+                font-size: small;
+                text-decoration: underline;
+            }
+        }         
+    }
+}

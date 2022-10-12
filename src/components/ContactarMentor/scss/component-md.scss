@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+@import '../../styles/App.scss';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #contactar-mentor {
+        .ant-col {
+            .ant-input {
+                margin-bottom: 2%;
+            }
+        }
+    }
+}

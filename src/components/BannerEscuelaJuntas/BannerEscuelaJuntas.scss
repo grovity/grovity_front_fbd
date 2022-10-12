@@ -1,0 +1,89 @@
+@import "../styles/colors";
+@import "../styles/App.scss";
+
+.ml-block-form {
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover,
+  input:-webkit-autofill:focus,
+  input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    box-shadow: 0 0 0 30px white inset !important;
+    -webkit-text-fill-color: black !important;
+  }
+}
+
+.banner-escuela-juntas  {
+  svg {
+    display: block;
+    margin-left: -30px;
+    padding-top: 20%;
+  }
+
+  > div {
+    display: inline-block;
+  }
+
+  &-text-wrapper {
+    width: 40%;
+    padding-right: 114px;
+    height: 265px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+
+
+    p {
+      font-size: 2vw;
+      margin: 50px 0 60px;
+      font-family: "ObjectiveBold";
+    }
+
+    a {
+      display: inline-block;
+
+      .ant-btn {
+        height: 40px;
+        font-size: 16px;
+        border-radius: 20px;
+        padding: 10px 24px;
+
+        &:hover {
+          box-shadow: 0 4px 12px rgba(24, 144, 255, 0.4);
+          transform: translateY(-4px);
+        }
+      }
+    }
+  }
+
+  h1 {
+    font-size: 3vw;
+    position: absolute;
+    width: 40%;
+    top: 0%;
+    left: 6% !important;
+    margin-top: 11%;
+    color: white;
+    font-family: ObjectiveBold;
+    padding-top: 12%;
+    padding-bottom: 10%;
+  }
+
+  p {
+    font-size:1.8vw;
+    position: absolute;
+    width: 40%;
+    top: 0%;
+    left: 6% !important;
+    margin-top: -5%;
+    color: #05ddd7;
+    font-family: ObjectiveThin;
+    padding-top: 25%;
+    padding-bottom: 3%;
+  }
+}
+#mlb2-2542961.ml-form-embedContainer .ml-form-align-center {
+  position: absolute;
+  left: 65%;
+  top: 34%;
+}

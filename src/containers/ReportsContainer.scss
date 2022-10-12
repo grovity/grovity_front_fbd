@@ -1,0 +1,70 @@
+@import '../components/styles/colors';
+@import '../components/styles/App.scss';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    // #tabs-control-indicadores-entidad {
+       
+    // }
+}
+// Extra-Large devices (desktops, 1280px and up)
+@media (min-width: 1366px) {
+    // #tabs-control-indicadores-entidad {
+       
+    // }
+}
+
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    // #tabs-control-indicadores-entidad {
+        
+    // }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #tabs-control-indicadores-entidad {
+        .ant-tabs {
+            .ant-tabs-ink-bar {
+                background: var(--primary-color);
+            }
+            .ant-tabs-nav::before {
+                border-color: var(--light-color);
+            }
+
+            .ant-tabs-nav-wrap {
+
+                .ant-tabs-nav-list {
+
+                    .ant-tabs-tab{
+                        color: var(--secondary-color);
+                        font-family: var(--reg);
+                    }
+                    
+                    .ant-tabs-tab-active {                      
+                        .ant-tabs-tab-btn {
+                            color: var(--secondary-color);
+                            font-family: var(--bold);
+                        }
+                    }
+                }
+            }
+        }
+        .cards-indicadores {
+            background-color: var(--secondary-text-color);
+            min-height: 120px;
+            b {
+                color: var(--paper-color);
+            }
+        }
+        .fechas-programa {
+            background-color: var(--ant-backgound-color);
+            b {
+                color: var(--secondary-color);
+            }
+        }
+    }
+}

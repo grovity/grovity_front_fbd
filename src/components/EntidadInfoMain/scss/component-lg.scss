@@ -1,0 +1,75 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+
+  #entidad-info-main {
+
+    .avatar {
+      position: relative;
+      background-color: var(--secondary-color);
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+    }
+    .ant-row {
+      justify-content: start;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 1.8vw;
+        text-align: start;
+        margin-bottom: 3%;
+      }
+
+      h4 {
+        color: var(--primary-text-color);
+        font-family: var(--medium);
+        font-size: 1.3vw;
+        text-align: start;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--light-font);
+        text-align: start;
+        font-size: medium;
+      }
+
+      .nit-p {
+        color: var(--primary-color);
+        font-family: var(--medium);
+        margin-right: 5%;
+      }
+
+      p {
+        svg {
+          color: var(--primary-color);
+        }
+      }
+
+      .ant-col {
+        .icon-editar {
+          margin-right: 6%;
+          margin-left: 0%;
+        }
+      }
+      .btn-editar {
+        display: block;
+        justify-content: flex-end; 
+      }
+    }
+
+    .ant-divider {
+        border-color: var(--secondary-text-color);
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+  }
+}

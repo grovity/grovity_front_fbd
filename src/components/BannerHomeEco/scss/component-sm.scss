@@ -1,0 +1,49 @@
+@import '../../styles/colors';
+
+@media (min-width: 0em) {
+    #banner-home-eco {
+        .col-banner-text {
+            margin-top: 20%;
+            h1 {
+                color: $primary;
+                font-family: ObjectiveExtra;
+                font-size: 130%;
+            }
+            p {
+                color: $font-dark;
+                font-family: ObjectiveRegular;
+                font-size: 80%;
+            }
+
+            .btn-banner-home3 {
+                background-color: $primary-green;
+                color: white;
+                font-family: ObjectiveMedium;
+                border: none;
+            }
+            .btn-banner-home3:hover {
+                background-color: #b2d64f;
+                color: white;
+                font-family: ObjectiveMedium;
+                border-radius: 2px;
+                border: none;
+            }
+        }
+    }
+}
+// @media (min-width: 526px) {
+@media (min-width: 32.875em) {
+    #banner-home-eco {
+        .col-banner-text {
+            margin-top: 20%;
+            h1 {
+                font-family: ObjectiveExtra;
+                font-size: 110%;
+            }
+            p {
+                font-family: ObjectiveRegular;
+                font-size: 85%;
+            }
+        }
+    }
+}
