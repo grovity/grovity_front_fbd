@@ -1,0 +1,28 @@
+@import '../../../components/styles/colors';
+@import '../../../components/styles/App.scss';
+
+
+@media (min-width: 0px) {
+  #program-emprendedor {
+
+    .ant-divider-horizontal-plan {
+      border-color: var(--tertiary-text-color);
+      z-index: 100;
+      margin-top: 2%;
+      margin-bottom: 2%;
+    }
+
+    .row-plan-trabajo {
+        margin-top: 5%;
+
+        h5 {
+            color: var(--secondary-color);
+            font-family: var(--bold);
+        }
+    }
+
+    .row-cards-actividades {
+      justify-content: space-between;
+    }
+    }
+  }

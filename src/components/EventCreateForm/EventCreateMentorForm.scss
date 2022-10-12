@@ -1,0 +1,32 @@
+@import "../styles/colors";
+@import "../styles/App.scss";
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 922px) {
+    .white-modal-basic {
+        .btn-link {
+            background-color: transparent;
+            font-size: 1vw;
+            border: none;
+            padding: 0%;
+            width: 20%;
+            margin-top: 0%;
+            margin-bottom: 1%;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .white-modal-basic {
+        .btn-link {
+            background-color: transparent;
+            font-size: 3vw;
+            border: none;
+            padding: 0%;
+            width: 20%;
+            margin-top: 0%;
+            margin-bottom: 1%;
+        }
+    }
+}

@@ -1,0 +1,231 @@
+@import "../../styles/colors";
+@import "../../styles/App.scss";
+
+@media (min-width: 922px) {
+
+.banner-soporte  {
+  margin-bottom: 0%;
+    svg {
+      display: block;
+      margin-left: -30px;
+      padding-top: 20%;
+    }
+  
+    > div {
+      display: inline-block;
+    }
+  
+    h1 {
+      font-size: 2vw;
+      position: absolute;
+      width: 40%;
+      top: 0%;
+      left: 35% !important;
+      color: white;
+      font-family: ObjectiveBold;
+      padding-top: 12%;
+      padding-bottom: 15%;
+    }
+
+    .ant-input-search {
+        position: absolute;
+        width: 40%;
+        top: 15%;
+        left: 30% !important;
+        margin-top: 7%;
+
+        .ant-btn {
+            background-color: $primary-green;
+            border-width: 0px;
+
+        }
+    }
+  
+    p {
+      font-size:1.8vw;
+      position: absolute;
+      width: 40%;
+      top: 0%;
+      left: 6% !important;
+      margin-top: -5%;
+      color: white;
+      font-family: ObjectiveThin;
+      padding-top: 25%;
+      padding-bottom: 3%;
+    }
+  }
+
+  .articulosSoporte {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+  .videosSoporte {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+  }
+
+}
+
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 1000px) {
+  
+    .banner-soporte  {
+        svg {
+          display: block;
+          margin-left: -30px;
+          padding-top: 20%;
+        }
+      
+        > div {
+          display: inline-block;
+        }
+      
+        h1 {
+          font-size: 3vw;
+          position: absolute;
+          width: 50%;
+          top: 7%;
+          left: 30% !important;
+          //margin-top: 11%;
+          color: white;
+          font-family: ObjectiveBold;
+          padding-top: 8%;
+          padding-bottom: 15%;
+        }
+        .ant-input-search {
+            position: absolute;
+            width: 60%;
+            top: 25%;
+            left: 23% !important;
+            margin-top: 0%;
+    
+            .ant-btn {
+                background-color: $primary-green;
+                border-width: 0px;
+            }
+        }
+      
+        p {
+          font-size:1.8vw;
+          position: absolute;
+          width: 40%;
+          top: 0%;
+          left: 6% !important;
+          margin-top: -5%;
+          color: white;
+          font-family: ObjectiveThin;
+          padding-top: 20%;
+          padding-bottom: 3%;
+        }
+      }
+
+}
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 1366px) {
+    .banner-soporte  {
+      margin-bottom: 0%;
+        svg {
+          display: block;
+          margin-left: -30px;
+          padding-top: 20%;
+        }
+      
+        > div {
+          display: inline-block;
+        }
+      
+        h1 {
+          font-size: 3vw;
+          position: absolute;
+          width: 50%;
+          top: 7%;
+          left: 30% !important;
+          //margin-top: 11%;
+          color: white;
+          font-family: ObjectiveBold;
+          padding-top: 10%;
+          padding-bottom: 15%;
+        }
+        .ant-input-search {
+            position: absolute;
+            width: 60%;
+            top: 30%;
+            left: 23% !important;
+            margin-top: 0%;
+    
+            .ant-btn {
+                background-color: $primary-green;
+                border-width: 0px;
+            }
+        }
+      
+        p {
+          font-size:1.8vw;
+          position: absolute;
+          width: 40%;
+          top: 0%;
+          left: 6% !important;
+          margin-top: -5%;
+          color: white;
+          font-family: ObjectiveThin;
+          padding-top: 25%;
+          padding-bottom: 3%;
+        }
+      }
+
+}
+  // Small devices (landscape phones, 576px and up)
+@media (min-width: 1600px) {
+    .banner-soporte  {
+      margin-bottom: 0%;
+        svg {
+          display: block;
+          margin-left: -30px;
+          padding-top: 20%;
+        }
+      
+        > div {
+          display: inline-block;
+        }
+      
+        h1 {
+          font-size: 3vw;
+          position: absolute;
+          width: 50%;
+          top: 7%;
+          left: 30% !important;
+          //margin-top: 11%;
+          color: white;
+          font-family: ObjectiveBold;
+          padding-top: 10%;
+          padding-bottom: 15%;
+        }
+        .ant-input-search {
+            position: absolute;
+            width: 60%;
+            top: 35%;
+            left: 23% !important;
+            margin-top: 0%;
+    
+            .ant-btn {
+                background-color: $primary-green;
+                border-width: 0px;
+            }
+        }
+      
+        p {
+          font-size:1.8vw;
+          position: absolute;
+          width: 40%;
+          top: 0%;
+          left: 6% !important;
+          margin-top: -5%;
+          color: white;
+          font-family: ObjectiveThin;
+          padding-top: 25%;
+          padding-bottom: 3%;
+        }
+      }
+}
