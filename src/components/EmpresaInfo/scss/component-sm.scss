@@ -1,0 +1,55 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+  #empresa-info {
+    .ant-row {
+      justify-content: start;
+      margin-top: 2%;
+
+      h1 {
+        color: var(--secondary-color);
+        font-family: var(--medium);
+        font-size: 5vw;
+      }
+
+      p {
+        color: var(--primary-text-color);
+        font-family: var(--light-font);
+        font-size: small;
+        margin-bottom: 4.3%;
+      }
+
+      h6 {
+        font-family: var(--medium);
+        color: var(--primary-text-color);
+        margin-top: 1.5%;
+      }
+
+      .ant-col {
+        justify-content: start;
+
+        .datos-contacto {
+          text-align: start;
+          margin-right: 5%;
+        }
+      }
+      .btn-editar {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+
+    .no-empresa {
+      background-color: var(--paper-color);
+      justify-content: center;
+      padding-bottom: 3%;
+      
+      .no-empresa-content {
+        justify-content: center;
+        text-align: center;
+      }
+    }
+  }
+}

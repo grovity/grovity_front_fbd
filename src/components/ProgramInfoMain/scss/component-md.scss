@@ -1,0 +1,36 @@
+@import '../../styles/colors';
+
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    #program-info-main {
+        .ant-row {
+          justify-content: start;
+    
+          h1 {
+            color: var(--secondary-color);
+            font-size: 2.3vw;
+            text-align: start;
+          }
+    
+          p {
+            color: var(--primary-text-color);
+            text-align: start;
+            font-size: medium;
+          }
+    
+          .info-program {
+              color: var(--secondary-text-color);
+          }
+        }
+        .datos-emprendedor {
+          background-color:#dddddd;
+          .ant-card-body {
+            padding-bottom: 5%;
+          }
+          p {
+            margin-bottom: 1%;
+          }
+        }
+      }
+
+}

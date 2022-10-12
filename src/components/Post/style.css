@@ -1,0 +1,12 @@
+#content > div > div.post-form > form > textarea,
+#text-area-reviews,
+#text-filter-column-nombre,
+#text-filter-column-first_name,
+#text-filter-column-programa_emprendedor,
+#text-filter-column-mentor,
+#text-filter-column-indicadores
+{
+    background: white;
+    border: #ccc solid 1px;
+}
+

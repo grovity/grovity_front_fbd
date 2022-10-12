@@ -1,0 +1,67 @@
+@import '../../styles/colors';
+
+@media (min-width: 0px) {
+    #pricing-eco {
+        h2 {
+            text-align: center;
+            font-family: ObjectiveMedium;
+            color: #242728;
+            margin-bottom: 10%;
+            font-size: 150%;
+        }
+        .cols-why-grovity {
+            justify-content: center;
+            
+            .cards-pricing {
+                text-align: center;
+                box-shadow: 2px 2px 5px #242728;
+                border-radius: 4px;
+                height: 330px;
+
+                h4 {
+                  margin-bottom: 5%;  
+                  font-size: 160%;
+                }
+                h3 {  
+                  font-size: 170%;
+                }
+
+                .numero {
+                    text-align: center;
+                    color: #949a9c;
+                }
+
+                h6 {
+                    text-align: left;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+
+                p {
+                    text-align: left;
+                    font-family: ObjectiveRegular;
+                    color: #242728;
+                    margin-bottom: 1%;
+                    font-size: 100%;
+                }
+            }
+            
+        }
+        .btn-pricing {
+            margin-top: 20%;
+            background-color: $primary-green;
+            color: white;
+            font-family: ObjectiveMedium;
+            border-radius: 2px;
+            border: none;
+        }
+        .btn-pricing:hover {
+            margin-top: 20%;
+            background-color: #b2d64f;
+            color: white;
+            font-family: ObjectiveMedium;
+            border-radius: 2px;
+            border: none;
+        }
+    }
+}
