@@ -1,0 +1,15 @@
+//Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .ant-col {
+        .ant-form-item {
+            .ant-form-item-label {
+                label {
+                    white-space: pre-wrap;
+                    &:after {
+                        content: ' '
+                    }
+                }
+            }
+        }
+    }  
+}

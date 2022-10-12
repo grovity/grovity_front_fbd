@@ -1,0 +1,111 @@
+@import "../../components/styles/App.scss";
+
+.con-juntas-podra {
+    background: #2b2b2b;
+  
+    .containerJuntasPodra {
+      width: 90%;
+    }
+    .ant-col {
+      background-color: white;
+      padding-top: 2%;
+      //justify-content: center;
+      .ant-row.title {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          margin-top: 1.5%;
+          margin-bottom: 2%;
+          margin-right: 0px;
+
+  
+          h2 {
+              color: #2b2b2b;
+              padding-bottom: 1%;
+              font-family: "ObjectiveMedium";
+          }
+          // hr {
+          //     position: absolute;
+          //     z-index: 1;
+          //     border-width: 1px;
+          //     border-color: white;
+          //     width: 35%;
+          //     margin-top: 3%;
+          // }
+      }
+
+  .ant-row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0px;
+  
+    .que-hacemos-por-ti-1 {
+      background-color: #059e96;
+      //height: 100%;
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: "ObjectiveExtra";
+        margin-top: 20%;
+      }
+    }
+    .que-hacemos-por-ti-2 {
+      background-color: #adadac;
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: "ObjectiveExtra";
+        margin-top: 20%;
+
+      }
+    }
+    .que-hacemos-por-ti-3 {
+      background-color: #05ddd7;
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: "ObjectiveExtra";
+        margin-top: 20%;
+
+      }
+    }
+    .que-hacemos-por-ti-4 {
+      background-color: #2b2b2b;
+      h1 {
+        text-align: center;
+        color: white;
+        font-family: "ObjectiveExtra";
+        margin-top: 20%;
+
+      }
+    }
+
+    .ant-col {
+      width: 25%;
+      padding-bottom: 5%;
+      padding-top: 3%;
+      padding-left: 30%;
+      
+
+        img {
+            margin-left: 32%;
+            background-color: white;
+        }
+
+      p {
+        display: block;
+        text-align: center;
+        color: white;
+        font-family: ObjectiveLight;
+        font-size: 1.5vw;
+        //font-size: 1.5vw;
+        padding-bottom: 6%;
+        padding-top: 15%;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+    }
+  }
+}
+}

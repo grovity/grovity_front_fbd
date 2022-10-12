@@ -1,0 +1,22 @@
+@import '../../styles/colors';
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+
+  #perfil-mentor-detalle > header {
+    margin-bottom: 0 !important;
+
+  }
+  #perfil-detalle-mentor {
+      background-color: transparent;
+      padding: 3%;
+    .ant-row {
+      justify-content: center;
+    }
+
+    p {
+      color: var(--secondary-color);
+      font-size: 0.9vw;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@import '../../styles/colors';
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    #footer-disponibilidad {
+        .ant-btn {
+            background-color: var(--primary-color);
+            color: var(--paper-color);
+            font-family: var(--medium);
+        }
+    }
+}

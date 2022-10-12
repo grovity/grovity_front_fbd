@@ -1,0 +1,33 @@
+@import '../../../components/styles/colors';
+
+
+@media (min-width: 922px) {
+  #home-user {
+    .eventos-hoy {
+      margin-left: 4%;
+      text-align: left;
+
+      h1 {
+        font-family: var(--bold);
+        color: var(--secondary-color);
+        font-size: 230%;
+        margin-top: 0;
+
+      }
+    }
+    
+    .eventos-hoy-no {
+      margin-left: 4%;
+      margin-bottom: 3%;
+      display: flex;
+      justify-content: center;
+      background-color: var(--paper-color);  
+    }
+
+    .conecta-mentor {
+      text-align: left;
+      margin-top: 0%;
+      width: 30%;
+    }
+  }
+}
