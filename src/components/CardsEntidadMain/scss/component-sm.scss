@@ -1,0 +1,63 @@
+@import '../../styles/colors';
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 0px) {
+    #cards-entidad-main {
+        .ant-row {
+            display: flex;
+            justify-content: space-between;
+        }
+        margin-top: 1%;
+        margin-bottom: 1%;
+        //width: 100% !important;
+
+  .ant-col {
+    margin-bottom: 3%;
+  }
+
+  .ant-card {
+    //border-left: 10px solid $primary;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(2, 3, 3, 0.4);
+    height: 100px;
+
+    .ant-card-body {
+      padding: 0;
+    }
+
+    width: 100%;
+  }
+
+  .admin {
+    .ant-card {
+      border-left: 10px solid var(--card-enti4);
+    }
+  }
+  .reportes {
+      .ant-card {
+        border-left: 10px solid var(--card-enti5);
+      }
+    }
+  .integracion {
+      .ant-card {
+        border-left: 10px solid var(--card-enti6);
+      }
+    }
+  .programas {
+      .ant-card {
+        border-left: 10px solid var(--card-enti1);
+      }
+    }
+  .mentores {
+      .ant-card {
+        border-left: 10px solid var(--card-enti2);
+      }
+    }
+  .emprendedores {
+      .ant-card {
+        border-left: 10px solid var(--card-enti3);
+      }
+    }
+  }
+ }
