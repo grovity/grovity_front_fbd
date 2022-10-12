@@ -1,0 +1,34 @@
+@import "../../styles/App.scss";
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+    #card-stat {
+        #col-icon {
+            justify-content: center;
+            padding-left: 7%;
+            margin-top: 6%;
+            margin-bottom: 6%;
+
+            img {
+              width: 50%;
+            }  
+        }
+        #col-stat {
+          margin-top: 6%;
+          margin-bottom: 6%;
+          padding-top: 3%;
+          padding-left: 3%;
+          text-align: start;
+      
+          h5 {
+            font-family: var(--bold);
+          }
+      
+          h4 {
+            font-family: var(--bold);
+            margin-bottom: 0;
+          }       
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/App.scss";
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 768px) {
+#card-entidad-main {
+        display: flex;
+        align-items: center;
+    #col-icon {
+        justify-content: center;
+        padding-left: 7%;
+        margin-top: 7%;
+        
+    }
+      #col-stat {
+        margin-top: 7%;
+        padding-left: 0%;
+        margin-right: 18%;
+        text-align: start;
+      }
+    }
+}

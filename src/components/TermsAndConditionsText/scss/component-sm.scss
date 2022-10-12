@@ -1,0 +1,27 @@
+@import "../../styles/colors";
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 0px) {
+    .fondo-faqs {
+        width: 100%;
+        background-color: white;
+    
+        .faqsContainer {
+            display: flex;
+            justify-content: center;
+      
+            .containerFaqs {
+                .secondary-row {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+
+                    }
+                }  
+            }
+        }
+}
